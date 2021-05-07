@@ -32,7 +32,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<header class="page-header">
                     <h1>A-laget</h1>
 					</header><!-- .page-header -->
-					<div class="container">
+					<div class="row">
 					
 						<?php
 						// Start the loop.
