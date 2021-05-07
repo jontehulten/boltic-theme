@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 
 	<header class="entry-header">
 
-		<?php/* the_title( '<h1 class="entry-title">', '</h1>' );*/ ?>
+		
 
 		<div class="entry-meta">
 
@@ -29,21 +29,10 @@ defined( 'ABSPATH' ) || exit;
 
 		<?php the_content(); ?>
 
-		<?php
-		wp_link_pages(
-			array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-				'after'  => '</div>',
-			)
-		);
-		?>
+		
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
+	
 
 </article><!-- #post-## -->
