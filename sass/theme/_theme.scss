@@ -27,7 +27,7 @@
         .footer-widgets {
 
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
 
             div {
                 width: 100%;
@@ -39,7 +39,7 @@
                 list-style: none;
                 color: #fff;
                     h2{
-                    
+                        font-weight: 400;
                     }
                 }
             }
