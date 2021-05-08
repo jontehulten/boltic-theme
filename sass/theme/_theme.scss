@@ -20,7 +20,7 @@
 #wrapper-footer{
     background-color: $dark;
     .site-info{
-        color: blue;
+        color: rgb(194, 194, 194);
     }
     .site-footer {
         
@@ -37,8 +37,9 @@
                 }
                 li {
                 list-style: none;
+                color: #fff;
                     h2{
-                        color: #fff;
+                    
                     }
                 }
             }
