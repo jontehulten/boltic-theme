@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
-		<div class="row text-center">
+		<div class="row">
 
 			<div class="col-md-12">
 
@@ -42,7 +42,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						  </div>
 						</div>					
 
-					<div class="site-info mt-5">
+					<div class="site-info mt-5 text-center">
 
 						<p>@Copyright Boltic grupp 9<p>
 
