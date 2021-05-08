@@ -26,7 +26,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<footer class="site-footer" id="colophon">
 					
 					    <div id="footer-sidebar" class="footer-widgets d-flex align-items-center">
-						  <div id="footer-one" class="widget">
+						  <div id="footer-one" class="widget flex-grow-1">
 							  <?php
 								  if(is_active_sidebar('footer-one')){
 								  	dynamic_sidebar('footer-one');
