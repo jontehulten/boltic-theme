@@ -18,55 +18,5 @@
 }
 
 
-$nav-background: #3a3a3a;
-
-
-/*
---------------------------------------
-  Navigation
---------------------------------------
-*/
-
-.bg-primary {
-    background-color: $nav-background!important;
-}
-
-.navbar {
-    // Flyttar navbar åt höger
-    justify-content: flex-end;
-}
-
-
-
-
-/*
---------------------------------------
-  Footer
---------------------------------------
-*/
-#wrapper-footer{
-    background-color: $dark;
-    .site-info{
-        color: rgb(194, 194, 194);
-    }
-    .site-footer {
-        
-        .row {
-            div {
-                color: #fff;
-                width: 100%;
-                ul{
-                    padding-left: 0;
-                }
-                li {
-                list-style: none;
-                    h2{
-                        font-weight: 400;
-                    }
-                }
-            }
-        }           
-    }
-}
 
 

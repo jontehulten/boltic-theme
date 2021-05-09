@@ -1,6 +1,51 @@
 $background-main: #343a40;
 
 
-body {
-    background-color: $background-main;
+/*
+--------------------------------------
+  Navigation
+--------------------------------------
+*/
+
+.bg-primary {
+    background-color: $background-main!important;
 }
+
+.navbar {
+    // Flyttar navbar åt höger
+    justify-content: flex-end;
+}
+
+
+
+
+/*
+--------------------------------------
+  Footer
+--------------------------------------
+*/
+#wrapper-footer{
+    background-color: $dark;
+    .site-info{
+        color: rgb(194, 194, 194);
+    }
+    .site-footer {
+        
+        .row {
+            div {
+                color: #fff;
+                width: 100%;
+                ul{
+                    padding-left: 0;
+                }
+                li {
+                list-style: none;
+                    h2{
+                        font-weight: 400;
+                    }
+                }
+            }
+        }           
+    }
+}
+
