@@ -176,7 +176,8 @@
 
         .navbar-nav {
           flex-direction: row;
-
+                    // Flyttar navbar åt höger
+                    justify-content: flex-end;
           .dropdown-menu {
             position: absolute;
           }
