@@ -43,7 +43,7 @@ foreach ( $understrap_includes as $file ) {
 	require_once $understrap_inc_dir . $file;
 }
 
-// Register Footer widgets
+// Register footer widgets
 function footer_widgets() {
 
 	$args = array(
