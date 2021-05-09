@@ -28,7 +28,12 @@ $nav-background: #3a3a3a;
 */
 
 .bg-primary {
-    background-color: $nav-background;
+    background-color: $nav-background!important;
+}
+
+.navbar {
+    // Flyttar navbar åt höger
+    justify-content: flex-end;
 }
 
 
