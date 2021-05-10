@@ -44,7 +44,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				?>
 				</div>
 				</div>
-				<div class="spelar-stats border-top border-bottom d-flex justify-content-center">
+				<div class="spelar-stats border-top border-bottom d-flex justify-content-center mt-4 mb-4 pt-4 pb-4">
 				---------------------- <br>
 				----------------------	Plugin med stats?????? <br>
 				-----------------------
