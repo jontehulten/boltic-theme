@@ -31,6 +31,16 @@ html, body, :root {
     color:white;
 }
 
+.spelar-fakta ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.spelar-fakta ul li{
+    border-right: .3rem solid #fff;
+}
+
 
 /*
 --------------------------------------
