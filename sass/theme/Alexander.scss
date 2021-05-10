@@ -1,5 +1,6 @@
 $background-main: #606060;
 $background-nav: #3a3a3a;
+$head-font: 'Pt-Sans', sans-serif;
 
 /*
 --------------------------------------
@@ -9,7 +10,7 @@ $background-nav: #3a3a3a;
 
 html {
     background-color: $background-main;
-    font-family: 'PT Sans', sans-serif!important;
+    font-family: $head-font!important;
 }
 
 .wrapper {
