@@ -34,8 +34,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="spelar-fakta col-6">
 				<?php
 					echo'<h1>'; the_field('namn'); echo '</h1><br>';
-					the_field('nummer'); echo '<br>';
-					echo 'Född: '; the_field('fodd'); echo ' | Längd: '; the_field('langd'); echo ' | '; the_field('position');
+					echo'<h1>'; the_field('nummer'); echo '</h1><<br>';
+					echo '<div class="spelarinfo">Född: '; the_field('fodd'); echo ' | Längd: '; the_field('langd'); echo ' | '; the_field('position') echo('</div>');
 						
 				?>
 				<div class="spelar-presentation mt-4 mb-4">
