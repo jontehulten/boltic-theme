@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
-                <div class="row">
+                <div class="row" id="single-spelare">
                     <div class="col-3 profil-bild">
 				<?php
 				while ( have_posts() ) {
@@ -44,7 +44,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 				?>
 				</div>
 				</div>
-				<hr>
 				<div class="spelar-stats border-top border-bottom d-flex justify-content-center">
 				---------------------- <br>
 				----------------------	Plugin med stats?????? <br>
