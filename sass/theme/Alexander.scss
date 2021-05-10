@@ -4,6 +4,21 @@ $background-nav: #3a3a3a;
 
 /*
 --------------------------------------
+  General
+--------------------------------------
+*/
+
+html {
+    background-color: $background-main;
+}
+
+.wrapper {
+    background-color: $background-main;
+}
+
+
+/*
+--------------------------------------
   Navigation
 --------------------------------------
 */
