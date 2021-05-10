@@ -1,5 +1,6 @@
 $background-main: #606060;
 $background-nav: #3a3a3a;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 
 /*
@@ -10,6 +11,7 @@ $background-nav: #3a3a3a;
 
 html {
     background-color: $background-main;
+    font-family: 'PT Sans', 'sans-serif';
 }
 
 .wrapper {
