@@ -19,7 +19,7 @@ html, body, :root {
     background-color: $background-main;
 }
 
-.border-top, .border-bottom {
+.border-top, .border-bottom, .sponsors-container {
     border-top: 1px solid rgba(153, 153, 153, 0.8)!important;
 }
 
@@ -85,6 +85,13 @@ html, body, :root {
   Footer
 --------------------------------------
 */
+
+.sponsors-container {
+    background-color: $background-main;
+
+}
+
+
 #wrapper-footer{
     background-color: $background-main;
     .site-info{
