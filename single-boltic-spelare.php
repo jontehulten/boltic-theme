@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php
 					echo'<h1>'; the_field('namn'); echo '</h1><br>';
 					echo'<h1>'; the_field('nummer'); echo '</h1><br>';
-					echo '<ul><li class="border-right pr-4">Född: '; the_field('fodd'); echo '</li><li class="border-right pr-4 pl-4">Längd: '; the_field('langd'); echo '</li><li class="pl-4">'; the_field('position'); echo('<l/i></ul>');
+					echo '<ul><li class="border-right pr-4">Född: '; the_field('fodd'); echo '</li><li class="border-right pr-4 pl-4">Längd: '; the_field('langd'); echo '</li><li class="pl-4"> Position: '; the_field('position'); echo('<l/i></ul>');
 						
 				?>
 				<div class="spelar-presentation mt-4 mb-4">
