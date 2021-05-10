@@ -8,7 +8,7 @@ $head-font: 'Pt-Sans', sans-serif;
 --------------------------------------
 */
 
-html, body {
+html, body, :root {
     background-color: $background-main;
     font-family: $head-font!important;
 }
