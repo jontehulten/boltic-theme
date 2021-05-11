@@ -16,10 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 <div class="sponsors-container">
-	<div class="sponsor">Huvudsponsor</div>
-	<div class="sponsor">Huvudsponsor</div>
-	<div class="sponsor">Huvudsponsor</div>
-	<div class="sponsor">Huvudsponsor</div>
+<?php get_template_part( 'sidebar-templates/sidebar-hero' ); ?>
 </div>
 
 <div class="wrapper border-top" id="wrapper-footer">

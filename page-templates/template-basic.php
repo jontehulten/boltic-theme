@@ -46,11 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	</div><!-- #content -->
     
-    <hr class="bg-primary">
-<div class="container spons">
-    <?php get_template_part( 'sidebar-templates/sidebar-hero' ); ?>
-</div>
-<hr class="bg-primary">
+
 
 </div><!-- #full-width-page-wrapper -->
 
