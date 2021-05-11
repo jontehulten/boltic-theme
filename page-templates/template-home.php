@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 ?>
-<div class="home-bg"></div>
+<img class="home-bg" src="<?php echo get_template_directory_uri(); ?>../img/Boltic-LAIK11.jpg"></img>
 <!-- <div class="sponsors-container">
     <div class="sponsor">Huvudsponsor</div>
     <div class="sponsor">Huvudsponsor</div>
