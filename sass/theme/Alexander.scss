@@ -1,6 +1,7 @@
 $background-main: #606060;
 $background-nav: #3a3a3a;
 $head-font: 'Pt Sans', sans-serif;
+$border: 1px solid rgba(153, 153, 153, 0.8)!important;
 
 /*
 --------------------------------------
@@ -20,7 +21,7 @@ html, body, :root, .site {
 }
 
 .border-top, .border-bottom, .sponsors-container {
-    border-top: 1px solid rgba(153, 153, 153, 0.8)!important;
+    border-top: $border;
 }
 
 /*
@@ -28,6 +29,11 @@ html, body, :root, .site {
   Spelarfakta
 --------------------------------------
 */
+
+
+#alla-spelare .page-header {
+    border-bottom: $border;
+}
 
 .spelar-fakta {
     color:white;
