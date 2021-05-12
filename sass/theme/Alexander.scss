@@ -132,11 +132,10 @@ html, body, :root, .site {
 .wpls-fix-box{
     background-color: #fff;
     border-radius: .3rem;
-}
-
-.wpls-fix-box img{
-    min-height: 150px;
-    padding: 2rem!important;
+    img{
+        min-height: 150px;
+        padding: 2rem!important;
+    }
 }
 
 // slider slut
