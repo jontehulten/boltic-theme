@@ -37,19 +37,21 @@ html, body, :root, .site {
         border: .1px solid #fff;
         background-color: #fff;
         border-radius: .3rem;
-        transition: all .3s ease;
     }
+
+    transition: all .3s ease;
 }
 
 .col-3:hover {
 
 
-    // img, a {
-    //     transform: scale(1.02);
-    // }
+    a {
+        color: $background-main;
+    }
 
     background-color: #fff;
     box-shadow: 0 0 0.6rem #0000006b;
+    transform: scale(1.02);
 }
 
 .spelar-stats {
