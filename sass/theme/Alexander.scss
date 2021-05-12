@@ -49,7 +49,7 @@ html, body, :root, .site {
 .col-3:hover {
 
 
-    .spelar-namn {
+    .spelar-namn a{
         color: $background-main;
     }
 
@@ -68,7 +68,7 @@ html, body, :root, .site {
     margin-bottom: 2rem;
 }
 
-.spelar-fakta, .spelar-namn {
+.spelar-fakta, .spelar-namn a {
     color:white;
 }
 
