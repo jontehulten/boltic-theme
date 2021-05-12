@@ -9,11 +9,8 @@
     height:200px;
     background-color: $primary;
     display: flex;
-    .sponsor{
-        background-color: lightblue;
-        flex: 1;
-        margin: 15px;
-        align-content: space-around;
+    .sponsors{
+        width: 100%;
     }
 }
 
