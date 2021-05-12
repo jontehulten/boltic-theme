@@ -50,11 +50,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							
 							the_title(
-								echo'<span class="entry-title spelar-namn"></span>';
-							echo '</a>';
-							echo '</div>';	
-							
-						}
+								sprintf( '<span class="entry-title spelar-namn"></span></a></div>' ));
+							}
 					} else {
 						get_template_part( 'loop-templates/content', 'none' );
 					}
