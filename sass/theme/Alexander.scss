@@ -43,9 +43,12 @@ html, body, :root, .site {
 
 .col-3:hover {
 
-
     img{
         box-shadow: 0 0 0.6rem #0000006b;
+        transform: scale(1.02);
+    }
+
+    .spelar-namn {
         transform: scale(1.02);
     }
 }
