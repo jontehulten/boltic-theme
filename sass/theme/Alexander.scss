@@ -44,12 +44,10 @@ html, body, :root, .site {
 .col-3:hover {
 
 
-    img, a {
+    img{
         box-shadow: 0 0 0.6rem #0000006b;
         transform: scale(1.02);
     }
-
-    background-color: #fff;
 }
 
 .spelar-stats {
