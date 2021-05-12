@@ -35,11 +35,12 @@ html, body, :root, .site {
     img {
         width: 100%;
         border: .1px solid #fff;
-        background-color: #fff;
+        background-color: #606060;
         border-radius: .3rem;
     }
 
     transition: all .3s ease;
+    padding: 4px 8px;
     
     .spelar-namn {
         color: #fff;
@@ -48,12 +49,7 @@ html, body, :root, .site {
 
 .col-3:hover {
 
-
-    .spelar-namn a{
-        color: $background-main;
-    }
-
-    background-color: #fff;
+    background-color: #606060;
     box-shadow: 0 0 0.6rem #0000006b;
     transform: scale(1.02);
 }
@@ -68,7 +64,7 @@ html, body, :root, .site {
     margin-bottom: 2rem;
 }
 
-.spelar-fakta, .spelar-namn a {
+.spelar-fakta {
     color:white;
 }
 
