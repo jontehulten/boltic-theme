@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							
 							the_title(
-								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark"><div class="col-3 text-center mb-4">', esc_url( get_permalink() ) ),
+								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark">', esc_url( get_permalink() ), echo '<div class="col-3 text-center mb-4">'; ),
 								'</a></span>'
 							);
 							echo '</div>';	
