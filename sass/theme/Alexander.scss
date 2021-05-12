@@ -40,12 +40,16 @@ html, body, :root, .site {
     }
 
     transition: all .3s ease;
+    
+    .spelar-namn {
+        color: #fff;
+    }
 }
 
 .col-3:hover {
 
 
-    a {
+    .spelar-namn {
         color: $background-main;
     }
 
