@@ -44,12 +44,12 @@ $container = get_theme_mod( 'understrap_container_type' );
 							* If you want to override this in a child theme, then include a file
 							* called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							*/
-							echo '<div class="col-3 text-center mb-4">';
+							// echo '<div class="col-3 text-center mb-4">';
 							get_template_part( 'loop-templates/content', 'boltic-spelare' );
 							
 							
 							the_title(
-								sprintf( '<span class="entry-title spelar-namn"><div class="col-3 text-center mb-4"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark"><div class="col-3 text-center mb-4">', esc_url( get_permalink() ) ),
 								'</a></span>'
 							);
 							echo '</div>';	
