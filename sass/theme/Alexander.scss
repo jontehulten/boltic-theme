@@ -37,11 +37,12 @@ html, body, :root, .site {
         border: .1px solid #fff;
         background-color: #fff;
         border-radius: .3rem;
-        transition: box-shadow .4s ease;
+        transition: all .3s ease;
     }
 
     img:hover {
         box-shadow: 0 0 0.4rem #0000006b;
+        transform: scale(1.02);
     }
 }
 
