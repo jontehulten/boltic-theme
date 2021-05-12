@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							
 							the_title(
-								sprintf( '<span class="entry-title spelar-namn"></a></span>');
+								echo'<span class="entry-title spelar-namn"></a></span>';
 							echo '</div>';	
 							
 						}
