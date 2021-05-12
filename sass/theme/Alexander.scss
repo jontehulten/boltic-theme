@@ -37,16 +37,19 @@ html, body, :root, .site {
         border: .1px solid #fff;
         background-color: #fff;
         border-radius: .3rem;
+        transition: all .3s ease;
     }
-    padding: 15px;
-    transition: all .3s ease;
 }
 
 .col-3:hover {
 
-    background-color: #606060;
-    box-shadow: 0 0 0.6rem #0000006b;
-    transform: scale(1.02);
+
+    img, a {
+        box-shadow: 0 0 0.6rem #0000006b;
+        transform: scale(1.02);
+    }
+
+    background-color: #fff;
 }
 
 .spelar-stats {
@@ -59,7 +62,17 @@ html, body, :root, .site {
     margin-bottom: 2rem;
 }
 
-.spelar-fakta, .spelar-namn a {
+#alla-spelare{
+        
+    span {
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.spelar-fakta {
     color:white;
 }
 
