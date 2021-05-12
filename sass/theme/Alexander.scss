@@ -48,6 +48,10 @@ html, body, :root, .site {
         box-shadow: 0 0 0.6rem #0000006b;
         transform: scale(1.02);
     }
+
+    a {
+        transform: scale(1.02);
+    }
 }
 
 .spelar-stats {
