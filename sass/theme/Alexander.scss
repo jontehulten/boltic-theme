@@ -130,12 +130,20 @@ html, body, :root, .site {
 // slider
 
 .wpls-fix-box{
-    height: 150px;
     background-color: #fff;
     border-radius: .3rem;
 }
 
-.sponsors-container {
+.wpls-fix-box img{
+    min-height: 150px;
+    padding: 2rem;
+    border-radius: .3rem;
+}
+
+// slider slut
+
+.sponsors-container
+ {
     background-color: $background-main;
     .sponsor {
          background-color: #fff;
