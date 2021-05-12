@@ -37,7 +37,7 @@ html, body, :root, .site {
         border: .1px solid #fff;
         background-color: #fff;
         border-radius: .3rem;
-        transition: opacity .4s ease;
+        transition: box-shadow .4s ease;
     }
 
     img:hover {
@@ -92,11 +92,6 @@ html, body, :root, .site {
         border: .1px solid #fff;
         background-color: #fff;
         border-radius: .3rem;
-        transition: opacity .4s ease;
-    }
-
-    img:hover {
-        box-shadow: 0 0 0.4rem #0000006b;
     }
 }
 
