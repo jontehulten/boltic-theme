@@ -35,16 +35,11 @@ html, body, :root, .site {
     img {
         width: 100%;
         border: .1px solid #fff;
-        background-color: #606060;
+        background-color: #fff;
         border-radius: .3rem;
     }
 
     transition: all .3s ease;
-    padding: 4px 8px;
-    
-    .spelar-namn {
-        color: #fff!important;
-    }
 }
 
 .col-3:hover {
@@ -64,7 +59,7 @@ html, body, :root, .site {
     margin-bottom: 2rem;
 }
 
-.spelar-fakta {
+.spelar-fakta, .spelar-namn a {
     color:white;
 }
 
