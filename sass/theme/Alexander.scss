@@ -30,7 +30,7 @@ html, body, :root, .site {
 --------------------------------------
 */
 
-.boltic-spelare {
+.col-3 {
 
     img {
         width: 100%;
@@ -39,8 +39,12 @@ html, body, :root, .site {
         border-radius: .3rem;
         transition: all .3s ease;
     }
+}
 
-    img:hover {
+.col-3:hover {
+
+
+    img {
         box-shadow: 0 0 0.4rem #0000006b;
         transform: scale(1.02);
     }
