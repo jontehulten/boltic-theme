@@ -38,11 +38,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 							echo '<ul><li class="border-right pr-4">Född: '; the_field('fodd'); echo '</li><li class="border-right pr-4 pl-4">Längd: '; the_field('langd'); echo '</li><li class="pl-4"> Position: '; the_field('position'); echo('<l/i></ul>');	
 						?>
 					</div>
-				</div>		
-				<div class="spelar-presentation mt-4 mb-4">
-					<?php
-						the_field('presentation');
-					?>
+					<div class="spelar-presentation mt-4 mb-4">
+						<?php
+							the_field('presentation');
+						?>
+					</div>
 				</div>
 				<div class="spelar-stats border-top d-flex justify-content-left mt-4 mb-4 pt-4 pb-4">
 				---------------------- <br>
