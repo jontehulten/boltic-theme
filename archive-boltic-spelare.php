@@ -51,7 +51,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								get_template_part( 'loop-templates/content', 'boltic-spelare' );
 							}
 							
-							the_title(, testing(),
+							the_title testing(),
 								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
 								'</a></span>'
 							);
