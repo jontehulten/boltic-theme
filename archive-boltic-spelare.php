@@ -50,7 +50,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							the_title(
 								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-								'</a></span>'. $fun . 'hej'
+								$fun, '</a></span>'
 							);
 							echo '</div>';	
 							
