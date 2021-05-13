@@ -45,11 +45,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 							* called content-___.php (where ___ is the Post Format name) and that will be used instead.
 							*/
 							echo '<div class="col-3 text-center mb-4">';
-							$testing = get_template_part( 'loop-templates/content', 'boltic-spelare' );
+							get_template_part( 'loop-templates/content', 'boltic-spelare' );
 							
 							
 							the_title(
-								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark"> ', esc_url( get_permalink() ) ),
+								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark"><?php echo('Hej!')?> ', esc_url( get_permalink() ) ),
 								'</a></span>'
 							);
 							echo '</div>';	
