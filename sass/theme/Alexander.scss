@@ -100,9 +100,14 @@ html, body, :root, .site {
 
 #sidebar-one {
     border-left: $border;
+        
+    ul {
+        padding: 0;
         li {
             list-style: none;
-        }    
+            color: #fff;
+        }   
+    }
 }  
 
 /*
