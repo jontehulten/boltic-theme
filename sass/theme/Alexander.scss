@@ -102,8 +102,10 @@ html, body, :root, .site {
     border-left: $border;
     li {
         list-style: none;
-        padding: 0;
         color: #fff;
+        ul {
+            padding: 0;
+        }
     }    
 }  
 
