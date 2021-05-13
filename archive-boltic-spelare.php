@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 							
 							the_title(
-								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark"> ', esc_url( get_template_part( 'loop-templates/content', 'boltic-spelare' ); ) ),
+								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark"> ', esc_url( get_template_part( 'loop-templates/content', 'boltic-spelare' ) ) ),
 								'</a></span>'
 							);
 							echo '</div>';	
