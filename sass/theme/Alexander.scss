@@ -98,8 +98,11 @@ html, body, :root, .site {
 
 // spelar - sidebar
 
-#sidebar-one li {
-    list-style: none;
+#sidebar-one {
+    border-left: $border;
+        li {
+            list-style: none;
+        }    
 }  
 
 /*
