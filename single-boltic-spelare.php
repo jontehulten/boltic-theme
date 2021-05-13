@@ -54,8 +54,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<!-- Do the right sidebar check -->
 			<?php get_template_part( 'global-templates/right-sidebar-check' ); ?>
-			<div id="spelar-sidebar" class="row align-items-center col-3">
-					<div id="sidebar-one" class="widget col-sm-9">
+			<div id="spelar-sidebar" class="row col-3">
+					<div id="sidebar-one" class="widget">
 						<?php
 							if(is_active_sidebar('sidebar-one')){
 							dynamic_sidebar('sidebar-one');
