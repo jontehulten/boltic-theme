@@ -39,11 +39,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 							
 					?>
 				<div class="spelar-presentation mt-4 mb-4">
-				<?php
-					the_field('presentation');
-				?>
+					<?php
+						the_field('presentation');
+					?>
 				</div>
+				</div>				
+				<div class="spelar-stats border-top d-flex justify-content-left mt-4 mb-4 pt-4 pb-4">
+				---------------------- <br>
+				----------------------	Plugin med stats?????? <br>
+				-----------------------
 				</div>
+                </div>
 				<div id="spelar-sidebar" class="row align-items-center col-3">
 					<div id="sidebar-one" class="widget col-sm-9">
 						<?php
@@ -52,13 +58,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							}
 							?>
 					</div>
-				</div>				
-				<div class="spelar-stats border-top d-flex justify-content-left mt-4 mb-4 pt-4 pb-4">
-				---------------------- <br>
-				----------------------	Plugin med stats?????? <br>
-				-----------------------
 				</div>
-                </div>
 			</main><!-- #main -->
 
 			<!-- Do the right sidebar check -->
