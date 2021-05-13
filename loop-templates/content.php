@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
-
+<div class="nyhets-wrapper">
 	<header class="entry-header">
 
 		<?php
@@ -20,22 +20,20 @@ defined( 'ABSPATH' ) || exit;
 		);
 		?>
 
-		<?php if ( 'post' === get_post_type() ) : ?>
-
-			<div class="entry-meta">
-				<?php understrap_posted_on(); ?>
-			</div><!-- .entry-meta -->
-
-		<?php endif; ?>
-
 	</header><!-- .entry-header -->
 
-	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+	
 
 	<div class="entry-content">
-
-		<?php the_excerpt(); ?>
-
+		<div class="row p-2">
+			<div class="col-8">
+				<?php the_excerpt(); ?>
+				<span class="entry-date">Publicerat: <?php echo get_the_date(); ?></span>
+			</div>
+			<div class="col-4">
+				<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
+			</div>
+		</div>
 		<?php
 		wp_link_pages(
 			array(
@@ -47,10 +45,6 @@ defined( 'ABSPATH' ) || exit;
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
-
-		<?php understrap_entry_footer(); ?>
-
-	</footer><!-- .entry-footer -->
-
+	</div>
 </article><!-- #post-## -->
+

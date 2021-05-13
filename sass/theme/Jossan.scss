@@ -1,7 +1,29 @@
+/*****************
+Bli-medlem
+*******************/
 .wp-block-column {
     border: 1px solid black;
     padding: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
     color: white;
+}
+
+/*************************************
+Nyhetsflödet
+***************************************/
+article {
+    margin-bottom: 1.5em;
+
+    .nyhets-wrapper {
+        color: black;
+        background-color: white;
+    }
+    .entry-header {
+        background-color: rgba(255, 255, 0, 0.5);
+        text-align: center;
+    }
+    .understrap-read-more-link {
+        display: none;
+    }
 }
