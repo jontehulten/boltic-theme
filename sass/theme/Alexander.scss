@@ -111,6 +111,9 @@ html, body, :root, .site {
                 font-size: 1.6rem!important;
                 font-weight: bold;
             }
+            .current-menu-item:before {
+                content: 'before';
+            }
         }
     }    
 }  
