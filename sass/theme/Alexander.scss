@@ -105,12 +105,12 @@ html, body, :root, .site {
         a {
             color: #fff;
         }
-        a:active {
-            font-size: 2rem!important;
-            font-weight: bold;
-        }
         ul {
             padding: 0;
+            .current-menu-item {
+                font-size: 2rem!important;
+                font-weight: bold;
+            }
         }
     }    
 }  
