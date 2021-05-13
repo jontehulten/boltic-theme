@@ -110,12 +110,16 @@ html, body, :root, .site {
             .current-menu-item {
                 font-size: 1.6rem!important;
                 font-weight: bold;
+                a {
+                    color: #ecde00;
+                }
             }
             .current-menu-item:before {
                 content: '\2023';
                 position: absolute;
                 left: 0
             }
+
         }
     }    
 }  
