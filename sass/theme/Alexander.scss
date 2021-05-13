@@ -104,9 +104,9 @@ html, body, :root, .site {
         list-style: none;
         a {
             color: #fff;
-            :hover {
-                text-decoration: none;
-            }
+        }
+        a:hover {
+            text-decoration: none;
         }
         h2 {
             border-bottom: $border;
