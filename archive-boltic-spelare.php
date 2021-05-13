@@ -46,10 +46,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 							*/
 							echo '<div class="col-3 text-center mb-4">';
 							
-							the_title( 							);
-								get_template_part( 'loop-templates/content', 'boltic-spelare' ), 
+							the_title(
+								get_template_part( 'loop-templates/content', 'boltic-spelare' ),
 								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
 								'</a></span>'
+							);
 							echo '</div>';	
 							
 						}
