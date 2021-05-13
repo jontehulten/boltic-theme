@@ -95,6 +95,18 @@ html, body, :root, .site {
 
 /*
 --------------------------------------
+  Slider historik
+--------------------------------------
+*/
+
+wpostahs-slider-design-2 .wpostahs-slider-nav .slick-current .wpostahs-main-title button {
+    border-color: #edd000;
+    background: #036cb5;
+}
+
+
+/*
+--------------------------------------
   Navigation
 --------------------------------------
 */
@@ -127,7 +139,7 @@ html, body, :root, .site {
 */
 
 
-// slider
+// slider sponsorerna
 
 .wpls-fix-box{
     background-color: #fff;
@@ -137,7 +149,6 @@ html, body, :root, .site {
         padding: 1.6rem!important;
     }
 }
-
 // slider slut
 
 .sponsors-container
