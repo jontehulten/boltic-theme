@@ -48,9 +48,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 							$fun = get_template_part( 'loop-templates/content', 'boltic-spelare' );
 							
 							
-							the_title( $fun, 
+							the_title(
 								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-								'</a></span>'
+								'</a></span>'. $fun
 							);
 							echo '</div>';	
 							
