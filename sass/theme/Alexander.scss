@@ -1,5 +1,5 @@
 $background-main: #606060;
-$background-nav: #3a3a3a;
+$background-nav: #3a3a3ae5; // backup color #3a3a3a
 $head-font: 'Pt Sans', sans-serif;
 $border: 1px solid rgba(153, 153, 153, 0.8)!important;
 
@@ -30,6 +30,32 @@ html, body, :root, .site {
 --------------------------------------
 */
 
+.col-3 {
+
+    img {
+        width: 100%;
+        border-radius: .3rem;
+        transition: all .3s ease;
+    }
+}
+
+.col-3:hover {
+
+    img{
+        // box-shadow: 0 0 0.6rem #0000006b;
+        -webkit-filter: drop-shadow(0 0 5px #222 );
+        filter: drop-shadow(0 0 5px #222);
+        transform: scale(1.02);
+    }
+
+    .spelar-namn {
+        transform: scale(1.02);
+    }
+}
+
+.spelar-stats {
+    width: 100%;
+}
 
 #alla-spelare .page-header {
     border-bottom: $border;
@@ -67,8 +93,24 @@ html, body, :root, .site {
     border: 1px solid;
 }
 
-.profil-bild img {
-    width: 100%;
+/*
+--------------------------------------
+  Slider - historik
+--------------------------------------
+*/
+
+.wpostahs-slider-design-2 .wpostahs-slider-nav .slick-current .wpostahs-main-title button {
+    border-color: #edd000;
+    background: #036cb5;
+}
+
+.wpostahs-slider-design-2 .wpostahs-slider-nav .slick-current {
+    font-size: 2rem;
+    color: #ecd000;
+}
+
+.wpostahs-slider-design-2 .wpostahs-slider-nav-title .wpostahs-main-title {
+    top: 18px;
 }
 
 /*
@@ -89,7 +131,7 @@ html, body, :root, .site {
 .nav-link{
     color: #cecece;
     font-weight: 400;
-    font-size: medium;
+    font-size: large; //medium
 }
 
 .nav-link:hover{
@@ -104,7 +146,21 @@ html, body, :root, .site {
 --------------------------------------
 */
 
-.sponsors-container {
+
+// slider sponsorerna
+
+.wpls-fix-box{
+    background-color: #fff;
+    border-radius: .3rem;
+    img{
+        min-height: 150px;
+        padding: 1.6rem!important;
+    }
+}
+// slider slut
+
+.sponsors-container
+ {
     background-color: $background-main;
     .sponsor {
          background-color: #fff;

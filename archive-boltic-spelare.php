@@ -52,6 +52,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 								sprintf( '<span class="entry-title spelar-namn"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
 								'</a></span>'
 							);
+							
 							echo '</div>';	
 							
 						}

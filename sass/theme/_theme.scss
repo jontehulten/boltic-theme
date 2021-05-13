@@ -2,18 +2,16 @@
 
 .home-bg {
     height:600px;
-    background-image:url(../img/Boltic-LAIK11.jpg);
+    background-image:url(http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/Boltic-LAIK11.jpg);
     background-size: cover;
 }
 .sponsors-container{
     height:200px;
-    background-color: $primary;
     display: flex;
-    .sponsor{
-        background-color: lightblue;
-        flex: 1;
-        margin: 15px;
-        align-content: space-around;
+    .sponsors{
+        width: 100%;
+        padding-top: 1rem;
+        background-color: rgb(255, 255, 255)smoke;
     }
 }
 
