@@ -106,7 +106,8 @@ html, body, :root, .site {
             color: #fff;
         }
         a:active {
-            color: red;
+            font-size: 2rem!important;
+            font-weight: bold;
         }
         ul {
             padding: 0;
