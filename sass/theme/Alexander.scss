@@ -112,7 +112,9 @@ html, body, :root, .site {
                 font-weight: bold;
             }
             .current-menu-item:before {
-                content: 'before';
+                content: '\2023';
+                position: absolute;
+                left: 1.4rem;
             }
         }
     }    
