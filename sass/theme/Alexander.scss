@@ -105,6 +105,9 @@ html, body, :root, .site {
         a {
             color: #fff;
         }
+        h2 {
+            border-bottom: $border;
+        }
         ul {
             padding: 0;
             .current-menu-item {
