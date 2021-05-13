@@ -63,3 +63,18 @@ function footer_widgets() {
 }
 
 add_action( 'widgets_init', 'footer_widgets' );
+
+
+// Register spelar sidebar
+function sidebar_widget_spelare() {
+
+	$args = array(
+		'id'            => 'sidebar-one',
+		'class'         => 'one',
+		'name'          => __( 'Spelar-sidebar', 'text_domain' ),
+	);
+	register_sidebar( $args );
+
+}
+
+add_action( 'widgets_init', 'sidebar_widget_spelare' );
