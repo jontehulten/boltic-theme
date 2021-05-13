@@ -24,31 +24,30 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<main class="site-main" id="main">
                 <div class="row" id="single-spelare">
                     <div class="col-3 profil-bild">
-				<?php
-				while ( have_posts() ) {
-					the_post();
-					get_template_part( 'loop-templates/content', 'boltic-spelare' );
-				}
-				?>
-                </div>
-                <div class="spelar-fakta col-6">
-				<?php
-					echo'<h1>'; the_field('namn'); echo '</h1><br>';
-					echo'<h1>'; the_field('nummer'); echo '</h1><br>';
-					echo '<ul><li class="border-right pr-4">Född: '; the_field('fodd'); echo '</li><li class="border-right pr-4 pl-4">Längd: '; the_field('langd'); echo '</li><li class="pl-4"> Position: '; the_field('position'); echo('<l/i></ul>');
-						
-				?>
+						<?php
+						while ( have_posts() ) {
+							the_post();
+							get_template_part( 'loop-templates/content', 'boltic-spelare' );
+						}
+						?>
+                	</div>
+					<div class="spelar-fakta col-6">
+						<?php
+							echo'<h1>'; the_field('namn'); echo '</h1><br>';
+							echo'<h1>'; the_field('nummer'); echo '</h1><br>';
+							echo '<ul><li class="border-right pr-4">Född: '; the_field('fodd'); echo '</li><li class="border-right pr-4 pl-4">Längd: '; the_field('langd'); echo '</li><li class="pl-4"> Position: '; the_field('position'); echo('<l/i></ul>');	
+						?>
+					</div>
+				</div>		
 				<div class="spelar-presentation mt-4 mb-4">
-				<?php
-					the_field('presentation');
-				?>
-				</div>
+					<?php
+						the_field('presentation');
+					?>
 				</div>
 				<div class="spelar-stats border-top d-flex justify-content-left mt-4 mb-4 pt-4 pb-4">
 				---------------------- <br>
 				----------------------	Plugin med stats?????? <br>
 				-----------------------
-				</div>
                 </div>
 			</main><!-- #main -->
 
