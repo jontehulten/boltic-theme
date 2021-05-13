@@ -91,11 +91,16 @@ html, body, :root, .site {
     width: 73px;
     font-size: 2.5rem;
     background: #2b6cb5;
-    /* box-shadow: 0 0 10px #000000ad; */
     border-radius: 45px;
     padding: 10px;
     border: 1px solid;
 }
+
+// spelar - sidebar
+
+.sidebar-one li {
+    list-style: none;
+}  
 
 /*
 --------------------------------------
