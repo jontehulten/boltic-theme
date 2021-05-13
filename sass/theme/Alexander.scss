@@ -1,5 +1,5 @@
 $background-main: #606060;
-$background-nav: #3a3a3a;
+$background-nav: #3a3a3ae5; // backup color #3a3a3a
 $head-font: 'Pt Sans', sans-serif;
 $border: 1px solid rgba(153, 153, 153, 0.8)!important;
 
@@ -131,7 +131,7 @@ html, body, :root, .site {
 .nav-link{
     color: #cecece;
     font-weight: 400;
-    font-size: medium;
+    font-size: large; //medium
 }
 
 .nav-link:hover{
