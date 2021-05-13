@@ -46,6 +46,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							*/
 							echo '<div class="col-3 text-center mb-4">';
 							$fun = get_template_part( 'loop-templates/content', 'boltic-spelare' );
+							echo $fun;
 							
 							
 							the_title(
