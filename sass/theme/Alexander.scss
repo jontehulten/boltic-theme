@@ -96,13 +96,18 @@ html, body, :root, .site {
     border: 1px solid;
 }
 
-// spelar - sidebar
+// spelare - sidebar
 
 #sidebar-one {
     border-left: $border;
     li {
         list-style: none;
-        color: #fff;
+        a {
+            color: #fff;
+        }
+        a:active {
+            color: red;
+        }
         ul {
             padding: 0;
         }
