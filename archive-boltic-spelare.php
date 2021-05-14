@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php
 				if ( have_posts() ) {
 					?>
-					<div class="hero-spelarsidan">hej allihopa</div>
+					<img class="hero-bild-spelarsidan" src="../img/hero-spelare.jpg" alt="Gruppbild alla spelare"></img>
 					<header class="page-header">
                     <h1>A-laget</h1>
 					</header><!-- .page-header -->
