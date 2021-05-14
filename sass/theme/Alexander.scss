@@ -43,20 +43,6 @@ html, body, :root, .site {
     }
 }
 
-.col-3:hover {
-
-    img{
-        // box-shadow: 0 0 0.6rem #0000006b;
-        -webkit-filter: drop-shadow(0 0 5px #222 );
-        filter: drop-shadow(0 0 5px #222);
-        transform: scale(1.02);
-    }
-
-    .spelar-namn {
-        transform: scale(1.02);
-    }
-}
-
 .spelar-stats {
     width: 100%;
 }
@@ -79,6 +65,12 @@ html, body, :root, .site {
             left: 0;
             top: 0;
             padding-top: 90%;
+        }
+
+        a:hover {
+            -webkit-filter: drop-shadow(0 0 5px #222 );
+            filter: drop-shadow(0 0 5px #222);
+            transform: scale(1.02);
         }
     }
     img {
