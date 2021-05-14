@@ -208,9 +208,14 @@ html, body, :root, .site {
 
 .nyhets-wrapper {
     padding: 1rem;
+    color: #fff;
+    background-color: aquamarine;
     .entry-header {
         background-color: #fff!important;
         text-align: left!important;
+        a {
+            color: #fff;
+        }
     }
 }
 
