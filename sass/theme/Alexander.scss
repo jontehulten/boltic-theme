@@ -209,9 +209,9 @@ html, body, :root, .site {
 .nyhets-wrapper {
     padding: 1rem;
     .entry-header {
-        background-color: #fff;
+        background-color: #fff!important;
         a {
-            text-align: left;
+            text-align: left!important;
         }
     }
 }
