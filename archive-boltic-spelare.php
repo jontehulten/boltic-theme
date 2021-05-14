@@ -17,7 +17,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <img class="hero-bild-spelarsidan" src="../img/boltic-hero-spelare.jpeg" alt="Gruppbild alla spelare"></img>
 
-<div class="wrapper pt-0" id="archive-wrapper">
+<div class="wrapper pt-1" id="archive-wrapper">
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
