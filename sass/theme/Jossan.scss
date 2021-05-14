@@ -29,3 +29,24 @@ article {
     }
    
 }
+/*****************************
+Enskild nyhet
+******************************/
+.single-nyhet {
+    color: black;
+
+    .entry-header {
+        text-align: center;
+    }
+
+    .single-nyhet-bild {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.5em;
+        margin-top: 1em;
+    }
+}
+
+#comments { //Tar bort möjlighet att kommentera
+    display: none;
+}
