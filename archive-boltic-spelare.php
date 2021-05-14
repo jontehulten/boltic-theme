@@ -20,6 +20,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<div class="<?php echo esc_attr( $container ); ?>" id="content" tabindex="-1">
 
 		<div class="row" id="alla-spelare">
+		<img class="hero-bild-spelarsidan" src="../img/boltic-hero-spelare.jpeg" alt="Gruppbild alla spelare"></img>
+
 
 			<!-- Do the left sidebar check -->
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
@@ -29,7 +31,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<?php
 				if ( have_posts() ) {
 					?>
-					<img class="hero-bild-spelarsidan" src="../img/boltic-hero-spelare.jpeg" alt="Gruppbild alla spelare"></img>
 					<header class="page-header">
                     <h1>A-laget</h1>
 					</header><!-- .page-header -->
