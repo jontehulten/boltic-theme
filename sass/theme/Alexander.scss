@@ -208,9 +208,11 @@ html, body, :root, .site {
 
 .nyhets-wrapper {
     padding: 1rem;
-    .header {
+    header {
         background-color: #fff;
-        text-align: left;
+        a {
+            text-align: left;
+        }
     }
 }
 
