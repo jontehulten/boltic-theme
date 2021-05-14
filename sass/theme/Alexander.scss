@@ -160,7 +160,12 @@ html, body, :root, .site {
 
 .wpostahs-slider-design-2 .wpostahs-slider-nav .wpostahs-slider-nav-title:hover .wpostahs-main-title button {
     background: #036cb5;
+    border: 2px solid #ecd000;
 } 
+
+.wpostahs-slick-slider .slick-arrow:hover {
+    border: 2px solid #ebd000 !important;
+}
 /*
 --------------------------------------
   Navigation
