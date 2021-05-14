@@ -33,9 +33,12 @@ article {
 Enskild nyhet
 ******************************/
 .single-nyhet {
-    color: black;
+    color: white;
 
     .entry-header {
+        h1 {
+            color: white;
+        }
         text-align: center;
     }
 
