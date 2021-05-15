@@ -225,6 +225,7 @@ html, body, :root, .site {
     .entry-date {
         padding: .2rem .6rem;
         border-radius: .2rem;
+        color: #fff;
     }
 }
 
@@ -235,12 +236,13 @@ html, body, :root, .site {
     border-bottom: 0!important;
     .entry-header {
         background-color: #fedf12!important;
-    }
-    .entry-date {
-        background-color: #fedf12;
         a {
             color:#000;
         }
+    }
+    .entry-date {
+        background-color: #fedf12;
+        color: #000;
     }
 }
 
