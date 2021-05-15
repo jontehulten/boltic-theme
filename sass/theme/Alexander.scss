@@ -219,7 +219,7 @@ html, body, :root, .site {
         background-color: #3e3e3e00!important;
         border-radius: .2rem;
         a {
-            color: rgb(255, 255, 255);
+            color:#fff;
         }
     }
     .entry-date {
@@ -234,10 +234,13 @@ html, body, :root, .site {
     transform: scale(1.02);
     border-bottom: 0!important;
     .entry-header {
-        background-color: #3e3e3e!important;
+        background-color: #fedf12!important;
     }
     .entry-date {
-        background-color: #3e3e3e;
+        background-color: #fedf12;
+        a {
+            color:#000;
+        }
     }
 }
 
