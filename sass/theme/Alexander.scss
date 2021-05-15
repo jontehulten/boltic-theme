@@ -210,8 +210,9 @@ html, body, :root, .site {
     padding: 1rem;
     color: rgb(255, 255, 255)!important;
     background-color: #606060!important;
-    border-radius: .4rem;
+    // border-radius: .4rem;
     transition: all .3s ease;
+    border-bottom: $border;
     .entry-header {
         background-color: #3e3e3e!important;
         padding: .4rem .6rem;
