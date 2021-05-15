@@ -213,15 +213,16 @@ html, body, :root, .site {
     transition: all .3s ease;
     border-bottom: $border;
     .entry-header {
-        padding: .2rem .4rem;
+        padding: .2rem .6rem;
         text-align: left!important;
         background-color: #3e3e3e00!important;
+        border-radius: .2rem;
         a {
             color: rgb(255, 255, 255);
         }
     }
     .entry-date {
-        padding: .2rem;
+        padding: .2rem .6rem;
         border-radius: .2rem;
     }
 }
