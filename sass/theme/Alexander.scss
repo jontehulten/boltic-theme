@@ -230,7 +230,7 @@ html, body, :root, .site {
     -webkit-filter: drop-shadow(0 0 5px #222 );
     filter: drop-shadow(0 0 5px #222);
     transform: scale(1.02);
-    border-bottom: none;
+    border-bottom: 0!important;
     .entry-header {
         background-color: #3e3e3e!important;
     }
