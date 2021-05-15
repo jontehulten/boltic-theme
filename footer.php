@@ -16,6 +16,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
 <div class="sponsors-container">
+	<h1>Våra sponsorer</h1>
 <?php //get_template_part( 'sidebar-templates/sidebar-hero' ); 
       echo do_shortcode('[logoshowcase max_height="150" orderby="rand" dots="false" arrows="true" extra_class="sponsors"]'); ?>
 </div>
