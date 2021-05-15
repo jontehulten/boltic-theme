@@ -214,12 +214,13 @@ html, body, :root, .site {
     .entry-header {
         padding: .2rem .4rem;
         text-align: left!important;
+        background-color: #3e3e3e00!important;
         a {
             color: rgb(255, 255, 255);
         }
-        .entry-date {
-            background-color: #3e3e3e;
-        }
+    }
+    .entry-date {
+        background-color: #3e3e3e;
     }
 }
 
