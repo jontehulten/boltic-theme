@@ -208,13 +208,13 @@ html, body, :root, .site {
 
 .nyhets-wrapper {
     padding: 1rem;
-    color: rgb(0, 0, 0)!important;
-    background-color: #ffffff!important;
+    color: rgb(255, 255, 255)!important;
+    background-color: #606060!important;
     border-radius: .4rem;
     transition: all .3s ease;
     .entry-header {
-        background-color: #2c6db6!important;
-        padding: 1rem;
+        background-color: #3e3e3e!important;
+        padding: .4rem .6rem;
         text-align: left!important;
         a {
             color: rgb(255, 255, 255);
