@@ -211,7 +211,7 @@ html, body, :root, .site {
     color: rgb(255, 255, 255)!important;
     background-color: #606060!important;
     transition: all .3s ease;
-    border-bottom: $border;
+    border: $border;
     border-radius: .3rem;
     .entry-header {
         padding: .2rem .6rem;
