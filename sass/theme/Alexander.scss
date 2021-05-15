@@ -210,15 +210,15 @@ html, body, :root, .site {
     padding: 1rem;
     color: rgb(255, 255, 255)!important;
     background-color: #606060!important;
-    // border-radius: .4rem;
     transition: all .3s ease;
-    border-bottom: $border;
     .entry-header {
-        background-color: #3e3e3e!important;
-        padding: .4rem .6rem;
+        padding: .2rem .4rem;
         text-align: left!important;
         a {
             color: rgb(255, 255, 255);
+        }
+        .entry-date {
+            background-color: #3e3e3e;
         }
     }
 }
@@ -227,6 +227,9 @@ html, body, :root, .site {
     -webkit-filter: drop-shadow(0 0 5px #222 );
     filter: drop-shadow(0 0 5px #222);
     transform: scale(1.02);
+    .entry-header {
+        background-color: #3e3e3e!important;
+    }
 }
 
 
