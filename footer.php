@@ -46,7 +46,15 @@ $container = get_theme_mod( 'understrap_container_type' );
 								  }
 							  ?>
 						  </div>
-						</div>					
+						</div>
+						<div id="footer-three" class="widget col-sm-3">
+							  <?php
+								  if(is_active_sidebar('footer-three')){
+									dynamic_sidebar('footer-three');
+								  }
+							  ?>
+						  </div>
+						</div>						
 
 					<div class="site-info mt-5 text-center">
 

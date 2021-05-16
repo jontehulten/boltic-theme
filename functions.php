@@ -60,6 +60,13 @@ function footer_widgets() {
 	);
 	register_sidebar( $args );
 
+	$args = array(
+		'id'            => 'footer-three',
+		'class'         => 'three',
+		'name'          => __( 'Kolumn 3', 'text_domain' ),
+	);
+	register_sidebar( $args );
+
 }
 
 add_action( 'widgets_init', 'footer_widgets' );
