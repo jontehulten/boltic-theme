@@ -46,7 +46,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 								  }
 							  ?>
 						  </div>
-						</div>
 						<div id="footer-three" class="widget col-sm-3">
 							  <?php
 								  if(is_active_sidebar('footer-three')){
@@ -55,7 +54,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 							  ?>
 						  </div>
 						</div>						
-
+				</div>				  	
 					<div class="site-info mt-5 text-center">
 
 						<p>@Copyright Boltic grupp 9<p>
