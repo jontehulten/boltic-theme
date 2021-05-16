@@ -14,7 +14,7 @@ get_header();
 ?>
 
 <div class="home-bg d-flex align-items-end text-center pb-4">
-    <span class="text-center">Senaste resultat</span>
+    <div class="text-center">Senaste resultat</div>
         <div class="row">
             <div class="col">Hej</div>
             <div class="col">hej</div>
