@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 <div class="sponsors-container">
-<div class="row">
+<div class="ml-4">
 		<span>Våra sponsorer</span>
 </div>
 <?php //get_template_part( 'sidebar-templates/sidebar-hero' ); 
