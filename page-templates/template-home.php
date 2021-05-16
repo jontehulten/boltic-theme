@@ -13,7 +13,12 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-<div class="home-bg"></div>
+<div class="home-bg">
+    <div class="row">
+        <div class="col">content</div>
+        <div class="col">content</div>
+    </div>
+</div>
 
 <!--<img class="home-bg" src=" <?php //echo get_template_directory_uri(); ?>/img/Boltic-LAIK11.jpg"></img> -->
 <!-- <div class="sponsors-container">
