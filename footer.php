@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<div class="col-md-12">
 
 				<footer class="site-footer" id="colophon">					
-					    <div id="footer-sidebar" class="row align-items-center">
+					    <div id="footer-sidebar" class="row align-items-center text-center">
 						  <div id="footer-one" class="widget col-sm-4">
 							  <?php
 								  if(is_active_sidebar('footer-one')){
