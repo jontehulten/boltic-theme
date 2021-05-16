@@ -14,10 +14,8 @@ get_header();
 ?>
 
 <div class="home-bg d-flex align-items-end justify-content-between">
-    <div class="row" id="senaste-resultat">
         <div class="col">content</div>
         <div class="col">content</div>
-    </div>
 </div>
 
 <!--<img class="home-bg" src=" <?php //echo get_template_directory_uri(); ?>/img/Boltic-LAIK11.jpg"></img> -->
