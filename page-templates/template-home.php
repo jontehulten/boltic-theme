@@ -14,7 +14,11 @@ get_header();
 ?>
 
 <div class="home-bg d-flex align-items-end text-center pb-4">
-        <div class="col">content</div>
+        <div class="col">
+            <div class="col">Hej</div>
+            <div class="col">hej</div>
+            <div class="col">hej</div>
+        </div>
         <div class="col">content</div>
 </div>
 
