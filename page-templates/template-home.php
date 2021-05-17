@@ -22,7 +22,7 @@ get_header();
                         <div class="col">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" alt="">
                         </div>
-                        <div class="col">1-0</div>
+                        <h1 class="col">1-0</h1>
                         <div class="col">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" alt="">
                         </div>
