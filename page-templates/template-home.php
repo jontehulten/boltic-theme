@@ -15,8 +15,8 @@ get_header();
 
 <div class="home-bg row align-items-end d-flex justify-content-around text-center pb-4">         
     <div class="col-md-4 matcher-front" id="senaste-resultat">   
-        <div class="row justify-content-center">
-                <div>Senaste resultat</div>
+        <div class="row justify-content-center pt-1">
+                <div class="h4">Senaste resultat</div>
         </div>
         <div class="row align-items-center">
                         <div class="col text-nowrap">
@@ -31,8 +31,8 @@ get_header();
         </div>
     </div> 
     <div class="col-md-4 matcher-front" id="nasta-match">   
-        <div class="row justify-content-center">
-                <div>Nästa match</div>
+    <div class="row justify-content-center pt-1">
+                <div class="h4">Nästa match</div>
         </div>
         <div class="row align-items-center">
                         <div class="col text-nowrap">
