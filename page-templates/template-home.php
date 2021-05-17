@@ -34,10 +34,16 @@ get_header();
         <div class="row justify-content-center">
                 <div>Nästa match</div>
         </div>
-        <div class="row">
-                        <div class="col">Hej</div>
-                        <div class="col">hej</div>
-                        <div class="col">hej</div>
+        <div class="row align-items-center">
+                        <div class="col text-nowrap">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="">
+                            <p>If Boltic</p>
+                        </div>
+                        <h1 class="col text-nowrap"> - </h1>
+                        <div class="col text-nowrap">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="">
+                            <p>If Rättvik</p>
+                        </div>
         </div>
     </div> 
 </div>
