@@ -26,7 +26,7 @@ get_header();
     </div> 
     <div class="col matcher-front flex-row justify-content-center">   
         <div class="row justify-content-center">
-                <div class="text-center">Senaste resultat</div>
+                <div class="text-center">Nästa match</div>
         </div>
         <div class="row">
                         <div class="col">Hej</div>
