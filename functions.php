@@ -87,14 +87,4 @@ function sidebar_widget_spelare() {
 add_action( 'widgets_init', 'sidebar_widget_spelare' );
 
 // ta bort category framför 
-add_filter( 'get_the_archive_title', function ( $title ) {
 
-    if( is_category() ) {
-
-        $title = single_cat_title( '', false );
-
-    }
-
-    return $title;
-
-});
