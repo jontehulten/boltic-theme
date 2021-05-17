@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive pages
+ * The template for displaying category pages
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
@@ -30,30 +30,39 @@ $container = get_theme_mod( 'understrap_container_type' );
 				if ( have_posts() ) {
 					?>
 					<header class="page-header">
-						
 						<?php
 						the_archive_title( '<h1 class="page-title">', '</h1>' );
+                        echo '<p>Ska försöka ta bort archive: </p>'
 						the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
 					</header><!-- .page-header -->
-					<?php
-					// Start the loop.
 					
-					while ( have_posts() ) {
-						the_post();
+                        <div class="row">
+                        <div class="col-8">
+						<?php
+						// Start the loop.
+						while ( have_posts() ) {
+							
+							the_post();
 
-						/*
-						 * Include the Post-Format-specific template for the content.
-						 * If you want to override this in a child theme, then include a file
-						 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-						 */
-						get_template_part( 'loop-templates/content', get_post_format() );
+							/*
+							* Include the Post-Format-specific template for the content.
+							* If you want to override this in a child theme, then include a file
+							* called content-___.php (where ___ is the Post Format name) and that will be used instead.
+							*/
+                            get_template_part( 'loop-templates/content', get_post_format() );
+							
+						}
+					} else {
+						get_template_part( 'loop-templates/content', 'none' );
 					}
-				} else {
-					get_template_part( 'loop-templates/content', 'none' );
-				}
-				?>
-
+					?>
+                    </div>
+                    <div class="col-4">
+                        <div class="plugin-box">
+                            <p>Här vore det om det gick att lägga in ett facebook-plugin</p>
+                        </div>
+                    </div>
 			</main><!-- #main -->
 
 			<?php
