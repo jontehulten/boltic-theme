@@ -86,3 +86,17 @@ function sidebar_widget_spelare() {
 
 add_action( 'widgets_init', 'sidebar_widget_spelare' );
 
+// Register facebook-flow sidebar
+function sidebar_widget_facebook_flow() {
+
+	$args = array(
+		'id'            => 'sidebar-two',
+		'class'         => 'two',
+		'name'          => __( 'Facebook-flow-sidebar', 'text_domain' ),
+	);
+	register_sidebar( $args );
+
+}
+
+add_action( 'widgets_init', 'sidebar_widget_facebook_flow' );
+
