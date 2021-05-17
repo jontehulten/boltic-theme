@@ -32,7 +32,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<header class="page-header">
 						<?php
 						echo '<h1 class="page-title">' . single_cat_title( '', false ) . '</h1>';
-                        echo '<p>Ska försöka ta bort Category: </p>';
 						the_archive_description( '<div class="taxonomy-description">', '</div>' );
 						?>
 					</header><!-- .page-header -->
