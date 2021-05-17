@@ -59,6 +59,8 @@ html, body, :root, .site {
 
 
 .fg-image-wrap {
+    width: 100%;
+    min-width: 240px;
     height: 150px;
     padding: 0 1.4rem;
 }
