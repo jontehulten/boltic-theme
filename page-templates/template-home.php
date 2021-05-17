@@ -19,9 +19,9 @@ get_header();
                 <div>Senaste resultat</div>
         </div>
         <div class="row">
-                        <div class="col">Hej</div>
-                        <div class="col">hej</div>
-                        <div class="col">hej</div>
+                        <div class="col">Logo</div>
+                        <div class="col">1-0</div>
+                        <div class="col">Logo</div>
         </div>
     </div> 
     <div class="col matcher-front" id="nasta-match">   
