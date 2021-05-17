@@ -1,3 +1,5 @@
+$boltic-yellow: #ecde00;
+$boltic-blue: #036cb5;
 #wrapper-navbar{
     width: 100%;
     z-index: 1000;
@@ -13,7 +15,7 @@
     color: $primary;
 }
 .s-icon:hover {
-color: #fedf12;
+color: $boltic-yellow;
 }
 
 .btn{
@@ -22,7 +24,7 @@ background-color: $primary;
 border:none;
 }
 .btn:hover{
-    background-color: #fedf12;
+    background-color: $boltic-yellow;
     }
     .cff-item{
     padding: 5px;
