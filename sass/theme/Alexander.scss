@@ -64,6 +64,8 @@ html, body, :root, .site {
 }
 
 .fg-default .fg-image {
+    width: auto;
+    height: auto;
     max-height: 100px;
     position: relative;
     top: 50%;
