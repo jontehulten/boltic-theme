@@ -59,7 +59,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                     <div class="col-4">
                         <div class="plugin-box">
-                            <p>Här vore det om det gick att lägga in ett facebook-plugin</p>
+                            <?php
+							if(is_active_sidebar('sidebar-two')){
+							dynamic_sidebar('sidebar-two');
+							}
+							?>
                         </div>
                     </div>
 			</main><!-- #main -->
