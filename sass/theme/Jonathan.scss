@@ -10,12 +10,15 @@
     background-repeat: no-repeat;
 }
 .s-icon {
-    color: white;
+    color: #ecd000;
 }
 .s-icon:hover {
-color: #ecd000;
+color: #2c6db6;
 }
 
-.btn:hover{
-color: #ecd000;
+.btn{
+background-color: #ecd000;
 }
+.btn:hover{
+    background-color: #2c6db6;
+    }
