@@ -23,7 +23,7 @@ get_header();
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="">
                             <p>If Boltic</p>
                         </div>
-                        <h1 class="col text-nowrap">1 - 0</h1>
+                        <h1 class="col text-nowrap">3 - 0</h1>
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="">
                             <p>If Rättvik</p>
