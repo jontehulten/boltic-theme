@@ -15,7 +15,7 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 ?>
 
-<img class="hero-bild-spelarsidan" src="../img/boltic-hero-spelare.jpeg" alt="Gruppbild alla spelare"></img>
+<div class="jumbotron lagfoto-herr"></div>
 
 <div class="wrapper pt-1" id="archive-wrapper">
 
