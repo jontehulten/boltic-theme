@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-<div class="home-bg d-flex align-items-end justify-content-around text-center pb-4">         
+<div class="home-bg align-items-end d-flex justify-content-around text-center pb-4">         
     <div class="col matcher-front" id="senaste-resultat">   
         <div class="row justify-content-center">
                 <div>Senaste resultat</div>
