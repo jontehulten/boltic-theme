@@ -19,9 +19,13 @@ get_header();
                 <div>Senaste resultat</div>
         </div>
         <div class="row">
-                        <div class="col">Logo</div>
+                        <div class="col">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" alt="">
+                        </div>
                         <div class="col">1-0</div>
-                        <div class="col">Logo</div>
+                        <div class="col">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" alt="">
+                        </div>
         </div>
     </div> 
     <div class="col-md-4 matcher-front" id="nasta-match">   
