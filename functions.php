@@ -86,4 +86,3 @@ function sidebar_widget_spelare() {
 
 add_action( 'widgets_init', 'sidebar_widget_spelare' );
 
-
