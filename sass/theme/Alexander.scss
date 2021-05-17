@@ -233,7 +233,8 @@ html, body, :root, .site {
     padding: 1rem;
     color: rgb(255, 255, 255)!important;
     background-color: #606060!important;
-    //transition: all .1s ease;
+    transition: all .3s ease;
+    backface-visibility: hidden;
     border: $border;
     border-radius: .3rem;
     .entry-header {
