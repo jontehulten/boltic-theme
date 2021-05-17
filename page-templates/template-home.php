@@ -20,11 +20,11 @@ get_header();
         </div>
         <div class="row">
                         <div class="col align-self-center">
-                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" alt="">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="">
                         </div>
                         <h1 class="col align-self-center">1-0</h1>
                         <div class="col align-self-center">
-                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" alt="">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="">
                         </div>
         </div>
     </div> 
