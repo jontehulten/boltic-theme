@@ -14,7 +14,7 @@ get_header();
 ?>
 
 <div class="home-bg d-flex align-items-end text-center pb-4">         
-    <div class="matcher-front flex-row justify-content-center">   
+    <div class="col matcher-front flex-row justify-content-center">   
         <div class="row justify-content-center">
                 <div class="text-center">Senaste resultat</div>
         </div>
@@ -24,7 +24,7 @@ get_header();
                         <div class="col">hej</div>
         </div>
     </div> 
-    <div class="matcher-front flex-row justify-content-center">   
+    <div class="col matcher-front flex-row justify-content-center">   
         <div class="row justify-content-center">
                 <div class="text-center">Senaste resultat</div>
         </div>
