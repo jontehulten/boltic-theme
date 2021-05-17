@@ -19,14 +19,14 @@ get_header();
                 <div>Senaste resultat</div>
         </div>
         <div class="row align-items-center">
-                        <div class="col">
+                        <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="">
-                            <span>If Boltic</span>
+                            <p>If Boltic</p>
                         </div>
                         <h1 class="col text-nowrap">1 - 0</h1>
-                        <div class="col">
+                        <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="">
-                            <span>If Rättvik</span>
+                            <p>If Rättvik</p>
                         </div>
         </div>
     </div> 
