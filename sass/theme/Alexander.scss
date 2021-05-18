@@ -12,14 +12,14 @@ $border: 1px solid rgba(153, 153, 153, 0.8)!important;
 */
 
 html, body, :root, .site {
-    background-color: $background-main;
+    background-color: $background-page;
     font-family: $head-font!important;
     font-weight: 400;
     color: #fff;
 }
 
 .wrapper {
-    background-color: $background-page;
+    background-color: #001d3d;
     //padding-top: 10rem!important;
 }
 
