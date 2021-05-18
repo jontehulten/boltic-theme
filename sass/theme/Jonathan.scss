@@ -59,3 +59,12 @@ color: white;
 #main-menu li a:hover{
     color: $primary;
 }
+
+.pagination{
+    background-color: $boltic-blue;
+
+    .page-link{
+        color: black;
+    }
+
+}
