@@ -44,12 +44,13 @@ li a{
 
 .dropdown-menu{
     background-color: $boltic-yellow; 
-    li a{
-        color: black;
-    }
-.dropdown-item:hover{
-background-color: $boltic-blue;
+    color: black;
+.dropdown-item{
+color: black;
+&:hover{
+    background-color: $boltic-blue;
 color: white;
+}
 }
 }
 }
