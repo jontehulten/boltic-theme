@@ -62,12 +62,13 @@ color: white;
 
 .pagination{
 
-    .active{
-        background-color: $boltic-yellow;
-        color: black;
-    }
     .page-link{
         color: black;
+
+        &.active{
+            background-color: $boltic-yellow;
+            color: black;
+        }
     }
 
 
