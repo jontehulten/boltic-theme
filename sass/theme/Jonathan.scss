@@ -34,3 +34,12 @@ border:none;
     border: 1px solid white;
     background: linear-gradient(90deg, #2b6cb5 0%, black 100%);
 }
+
+//navbar
+
+ul{
+    background-color: $boltic-blue; 
+}
+ul li:hover{
+background-color: $boltic-yellow;
+}
