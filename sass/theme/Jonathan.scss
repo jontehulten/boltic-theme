@@ -64,12 +64,14 @@ color: white;
 
     .page-link{
         color: black;
-
-        &.active{
-            background-color: $boltic-yellow;
-            color: black;
-        }
     }
-
+    .page-item.active{
+        background-color: $boltic-yellow;
+        color: black;
+    }
+    .page-item{
+        background-color: $boltic-blue;
+        color: white;
+    }
 
 }
