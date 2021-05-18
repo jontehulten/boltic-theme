@@ -19,7 +19,7 @@ $container = get_theme_mod( 'understrap_container_type' );
       echo do_shortcode('[logoshowcase cat_id="4" max_height="150" orderby="rand" dots="false" arrows="true" extra_class="sponsors"]'); ?>
 </div>
 
-<div class="wrapper border-top" id="wrapper-footer">
+<div class="wrapper" id="wrapper-footer">
 
 	<div class="<?php echo esc_attr( $container ); ?>">
 
