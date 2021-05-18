@@ -21,8 +21,11 @@ Nyhetsflödet
 }*/
 
 article {
-    margin-bottom: 1.5em;  
-}
+    margin-bottom: 1.5em;
+        .understrap-read-more-link {
+            display: none;
+        }
+    }
 /*****************************
 Enskild nyhet
 ******************************/
