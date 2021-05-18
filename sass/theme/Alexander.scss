@@ -27,6 +27,9 @@ html, body, :root, .site {
 //     border-top: $border;
 // }
 
+.border-top {
+    border:0;
+}
 .custom-logo-link {
     width: 120px;
 }
