@@ -42,9 +42,9 @@ li a{
     color: white;
 }
 
-#main-menu li ul{
+.dropdown-menu{
     background-color: $boltic-yellow; 
-li:hover{
+.dropdown-menu li:hover{
 background-color: $boltic-blue;
 }
 }
