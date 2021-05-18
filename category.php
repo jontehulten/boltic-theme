@@ -37,7 +37,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					</header><!-- .page-header -->
 					
                         <div class="row">
-                        <div class="col-8 col-md-12">
+                        <div class="col-lg col-md-12">
 						<?php
 						// Start the loop.
 						while ( have_posts() ) {
@@ -57,7 +57,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					}
 					?>
                     </div>
-                    <div class="col-4 col-md-12">
+                    <div class="col-lg-4 col-md-12">
                         <div class="plugin-box">
                             <?php
 							if(is_active_sidebar('sidebar-two')){
