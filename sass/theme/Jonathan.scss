@@ -64,6 +64,10 @@ color: white;
 
     .page-link{
         color: black;
+    
+        .current{
+        color: black;
+        }
     }
     .page-item.active{
         background-color: $boltic-yellow;
