@@ -37,9 +37,14 @@ border:none;
 
 //navbar
 
+#main-menu{
+li{
+    color: $primary-100;
 ul{
     background-color: $boltic-blue; 
 }
 ul li:hover{
 background-color: $boltic-yellow;
+}
+}
 }
