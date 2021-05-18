@@ -61,10 +61,16 @@ color: white;
 }
 
 .pagination{
+
+    .page-item{
     background-color: $boltic-blue;
+
+    & .page-active{
+        background-color: $boltic-yellow;
+    }
 
     .page-link{
         color: black;
     }
-
+}
 }
