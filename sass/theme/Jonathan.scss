@@ -44,7 +44,9 @@ li a{
 
 .dropdown-menu{
     background-color: $boltic-yellow; 
-    color: black;
+    li a{
+        color: black;
+    }
 .dropdown-item:hover{
 background-color: $boltic-blue;
 color: white;
