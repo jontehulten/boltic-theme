@@ -345,7 +345,9 @@ html, body, :root, .site {
         color: rgb(194, 194, 194);
     }
     .site-footer {
-        
+        #footer-one {
+            margin-bottom: 3rem;
+        }
         .row {
             div {
                 color: $primary-100;
