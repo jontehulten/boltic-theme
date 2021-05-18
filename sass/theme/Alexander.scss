@@ -23,9 +23,9 @@ html, body, :root, .site {
     //padding-top: 10rem!important;
 }
 
-.border-top, .border-bottom, .sponsors-container {
+/*.border-top, .border-bottom, .sponsors-container {
     border-top: $border;
-}
+}*/
 
 .custom-logo-link {
     width: 120px;
@@ -268,7 +268,6 @@ html, body, :root, .site {
     //background: linear-gradient(90deg, #036cb5 0%, #001d3d 100%);
     background-color: #036cb5;
     //transition: all .3s ease; // fixa suddigt här!
-    border: $border;
     border-radius: .3rem;
     .entry-header {
         padding: .2rem .6rem;
