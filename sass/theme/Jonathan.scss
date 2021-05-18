@@ -40,14 +40,16 @@ border:none;
 #main-menu{
 li a{
     color: white;
-ul{
+}
+
+#main-menu li ul{
     background-color: $boltic-yellow; 
 li:hover{
 background-color: $boltic-blue;
 }
 }
 }
-}
+
 
 #main-menu li a:hover{
     color: $primary;
