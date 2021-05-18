@@ -38,8 +38,8 @@ border:none;
 //navbar
 
 #main-menu{
-li{
-    color: $primary;
+li a{
+    color: white;
 ul{
     background-color: $boltic-yellow; 
 li:hover{
@@ -48,6 +48,11 @@ background-color: $boltic-blue;
 }
 }
 }
+
+#main-menu li a:hover{
+    color: $primary;
+}
+
 
 .article{
     background-color: #036cb5;
