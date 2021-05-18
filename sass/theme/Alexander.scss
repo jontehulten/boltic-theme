@@ -55,7 +55,7 @@ html, body, :root, .site {
 
 /*
 --------------------------------------
-  Sponsorerna
+  Sponsorerna huvudsidan
 --------------------------------------
 */
 
@@ -328,6 +328,7 @@ html, body, :root, .site {
 .sponsors-container
  {
     background-color: $background-main;
+    border-top: $border;
     padding: 0 0 2rem 0;
     //height: 230px;
     display: flex;
