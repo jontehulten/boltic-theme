@@ -1,4 +1,13 @@
+ /********************
+Kolumner för kortare textrader
+*********************/
+.text-kolumn {
+    columns: 2;
 
+    @media (max-width: 760px) {
+        columns: 1;
+    }
+}
 /*****************
 Bli-medlem
 *******************/
