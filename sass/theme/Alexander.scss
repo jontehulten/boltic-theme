@@ -60,14 +60,14 @@ html, body, :root, .site {
 */
 
 
-.\#sponsors .fg-image-wrap {
+#sponsors .fg-image-wrap {
     width: 100%;
     min-width: 260px;
     height: 150px;
     padding: 0 1.4rem;
 }
 
-.\#sponsors .fg-default .fg-image {
+#sponsors .fg-default .fg-image {
     width: auto;
     height: auto;
     max-height: 100px;
@@ -77,11 +77,11 @@ html, body, :root, .site {
     transform: translateY(-50%) translateX(-50%);
 }
 
-.\#sponsors .fg-item-inner {
+#sponsors .fg-item-inner {
     border-radius: .3rem;
 }
 
-.\#sponsors .foogallery {
+#sponsors .foogallery {
     text-align: left!important;
 }
 
