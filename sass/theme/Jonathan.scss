@@ -6,8 +6,8 @@ $boltic-blue: #036cb5;
 }
 
 .lagfoto-herr {
-    background-image:url(http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/39db0111-6524-4910-93b7-21fa3424e3cb.jpg);
-    height: 40vh;
+    background-image:url(http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/bolticp.jpg);
+    height: 50vh;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -33,6 +33,7 @@ border:none;
     .plugin-box {
     background-color: #036cb5;
     //background: linear-gradient(90deg, $boltic-blue 0%, black 100%);
+    border-radius: .3rem;
 }
 
 //navbar
