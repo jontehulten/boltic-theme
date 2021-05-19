@@ -42,7 +42,7 @@ get_header();
                         <h1 class="col text-nowrap"> - </h1>
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/hammarby_if-logo-1.png" class="logo-resultat" alt="Hammarby logotyp">
-                            <p>Hammarby Bundy</p>
+                            <p>Hammarby</p>
                         </div>
         </div>
     </div> 
