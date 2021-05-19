@@ -56,6 +56,10 @@ Enskild nyhet
 
     .entry-content {
         columns: 2;
+
+        @media (max-width: 760px) {
+            columns: 1;
+        }
     }
 }
 
