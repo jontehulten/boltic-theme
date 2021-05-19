@@ -1,13 +1,3 @@
-/********************
-Kolumner för kortare textrader
-*********************/
-.entry-content {
-    columns: 2;
-
-    @media (max-width: 760px) {
-        columns: 1;
-    }
-}
 
 /*****************
 Bli-medlem
@@ -65,13 +55,16 @@ Enskild nyhet
         margin-top: 1em;
     }
 
-    /*.entry-content {
-        columns: 2;
+    /********************
+Kolumner för kortare textrader
+*********************/
+.entry-content {
+    columns: 2;
 
-        @media (max-width: 760px) {
-            columns: 1;
-        }
-    }*/
+    @media (max-width: 760px) {
+        columns: 1;
+    }
+}
 }
 
 #comments { //Tar bort möjlighet att kommentera
