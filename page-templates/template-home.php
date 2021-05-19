@@ -20,12 +20,12 @@ get_header();
         </div>
         <div class="row align-items-center">
                         <div class="col text-nowrap">
-                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
                         </div>
                         <h1 class="col text-nowrap">3 - 0</h1>
                         <div class="col text-nowrap">
-                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="Rättvik logotyp">
                             <p>If Rättvik</p>
                         </div>
         </div>
@@ -36,12 +36,12 @@ get_header();
         </div>
         <div class="row align-items-center">
                         <div class="col text-nowrap">
-                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
                         </div>
                         <h1 class="col text-nowrap"> - </h1>
                         <div class="col text-nowrap">
-                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="">
+                            <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/hammarby_if-logo-1.png" class="logo-resultat" alt="Hammarby logotyp">
                             <p>If Rättvik</p>
                         </div>
         </div>
