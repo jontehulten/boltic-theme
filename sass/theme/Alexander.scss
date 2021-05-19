@@ -245,11 +245,14 @@ html, body, :root, .site {
     justify-content: flex-end;
 }
 
+.navbar-nav {
+    padding: .5rem;
+}
+
 .nav-link{
     color: #cecece;
     font-weight: 400;
     font-size: 1.3rem; //medium
-    padding: .5rem;
 }
 
 .nav-link:hover{
