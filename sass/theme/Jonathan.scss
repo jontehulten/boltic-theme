@@ -81,6 +81,10 @@ color: white;
     background-color: $boltic-blue;
 }
 
-.wp-block-table.is-style-stripes tbody tr:nth-child(even) {
+.wp-block-table.is-style-stripes tbody tr:hover{
     background-color: $boltic-yellow;
 }
+
+/*.wp-block-table.is-style-stripes tbody tr:nth-child(even) {
+    background-color: $boltic-yellow;
+}*/
