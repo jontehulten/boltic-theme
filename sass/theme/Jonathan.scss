@@ -75,3 +75,8 @@ color: white;
         color: black;
     }
 }
+
+
+.wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
+    background-color: $boltic-blue;
+}
