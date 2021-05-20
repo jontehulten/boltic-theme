@@ -95,15 +95,17 @@ color: white;
 .newResult{
     margin-top: -15px !important;
 }
-.clickBox{
-    text-decoration: none;
+
+#senaste-resultat, #nasta-match{
     color: black;
-}
-.clickBox:hover{
+    background-color: #ecdc008a ;
+    text-decoration: none;
+} 
+#senaste-resultat:hover, #nasta-match:hover{
     background-color: #ecdc00 ;
     text-decoration: none;
     color: black;
-}
+} 
 #wp-calendar{
 
     .sp-data-table{
