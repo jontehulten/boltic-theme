@@ -18,7 +18,7 @@ get_header();
         <div class="row justify-content-center pt-1">
                 <div> <h4>Senaste resultat</h4> </div>
         </div>
-        <div class="row align-items-center">
+        <a href="#"><div class="row align-items-center">
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
@@ -28,7 +28,7 @@ get_header();
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/ifk_rattvik_logo.png" class="logo-resultat" alt="Rättvik logotyp">
                             <p>If Rättvik</p>
                         </div>
-        </div>
+        </div></a>
     </div> 
     <div class="col-md-4 matcher-front" id="nasta-match">   
     <div class="row justify-content-center pt-1">
