@@ -33,6 +33,7 @@ get_header();
     <div class="col-md-4 matcher-front" id="nasta-match">   
     <div class="row justify-content-center pt-1">
                 <div class="h4">Nästa match</div>
+                <br>
                 <p class="date">08-08-2021</p>
         </div>
         <div class="row align-items-center">
