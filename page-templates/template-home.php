@@ -33,7 +33,7 @@ get_header();
     <div class="col-md-4 matcher-front" id="nasta-match">   
     <div class="row justify-content-center pt-1">
                 <div> <h4>Nästa match</h4> </div>
-                <p class="date">Lördag 22-05-2021 kl 19:00</p>
+                <p class="date">Lördag 22/05 kl 19:00</p>
         </div>
         <div class="row newResult">
                         <div class="col text-nowrap">
