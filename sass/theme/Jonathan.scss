@@ -103,9 +103,13 @@ color: white;
     background-color: #036cb5 ;
     color:white
 }
-.clickBox, .clickBox:hover{
+.clickBox{
     text-decoration: none;
     color: black;
+}
+.clickBox:hover{
+    text-decoration: none;
+    color: white;
 }
 #wp-calendar{
 
