@@ -14,7 +14,7 @@ get_header();
 ?>
 
 <div class="home-bg row align-items-end d-flex justify-content-around text-center pb-4">         
-<a href="#"><div class="col-md-4 matcher-front" id="senaste-resultat">   
+<a href="http://toto.mkv.kau.se/vt21/wd2g_09/resultat/"><div class="col-md-4 matcher-front" id="senaste-resultat">   
         <div class="row justify-content-center pt-1">
                 <div> <h4>Senaste resultat</h4> </div>
         </div>
@@ -30,7 +30,7 @@ get_header();
                         </div>
         </div>
     </div></a>
-    <a href="#"><div class="col-md-4 matcher-front" id="nasta-match">   
+    <a href="http://toto.mkv.kau.se/vt21/wd2g_09/resultat/"><div class="col-md-4 matcher-front" id="nasta-match">   
     <div class="row justify-content-center pt-1">
                 <div> <h4>Nästa match</h4> </div>
                 <p class="date">Lördag 22/05 kl 19:00</p>
