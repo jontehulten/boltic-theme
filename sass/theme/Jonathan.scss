@@ -98,11 +98,12 @@ color: white;
 
 #senaste-resultat, #nasta-match{
     background-color: white ;
-    color:black
+    color:black;
+    text-decoration: none;
 } 
 #senaste-resultat:hover, #nasta-match:hover{
     background-color: #036cb5 ;
-    color:white
+    color:white;
 }
 #wp-calendar{
 
