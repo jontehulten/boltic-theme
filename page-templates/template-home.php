@@ -44,8 +44,8 @@ get_header();
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/hammarby_if-logo-1.png" class="logo-resultat" alt="Hammarby logotyp">
                             <p>Hammarby</p>
-                        </div></a>
-        </div>
+                        </div>
+        </div></a>
     </div> 
 </div>
 
