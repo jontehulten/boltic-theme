@@ -92,8 +92,10 @@ color: white;
 
 #wp-calendar{
 
-    tr{
-        background-color: #036cb5;
-        color: #ecde00;
+    .sp-data-table th:nth-child(odd){
+        background-color: $boltic-blue;
+    }
+    .sp-data-table th:nth-child(even){
+        background-color: $boltic-yellow;
     }
 }
