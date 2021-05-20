@@ -97,12 +97,13 @@ color: white;
 }
 
 #senaste-resultat, #nasta-match{
-    background-color: #036bb58e ;
+    background-color: white ;
 } 
 #senaste-resultat:hover, #nasta-match:hover{
     background-color: #036cb5 ;
+    color:white
 }
-.clickBox{
+.clickBox, .clickBox:hover{
     text-decoration: none;
     color: black;
 }
