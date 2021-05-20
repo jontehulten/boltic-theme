@@ -92,13 +92,12 @@ color: white;
 
 #wp-calendar{
 
-    background-color: $boltic-blue !important;
     .sp-data-table{
         background-color: none !important;
         color: white !important;
     }
 
-    .sp-data-table th{
+    .sp-data-table tr th{
         background-color: $boltic-yellow !important;
     }
     #today{
