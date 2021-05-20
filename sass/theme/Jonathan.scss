@@ -97,15 +97,15 @@ color: white;
 }
 
 #senaste-resultat, #nasta-match{
-    color: black;
-    background-color: #ecdc008a ;
-    text-decoration: none;
+    background-color: #036bb58e ;
 } 
 #senaste-resultat:hover, #nasta-match:hover{
-    background-color: #ecdc00 ;
+    background-color: #036cb5 ;
+}
+.clickBox{
     text-decoration: none;
     color: black;
-} 
+}
 #wp-calendar{
 
     .sp-data-table{
