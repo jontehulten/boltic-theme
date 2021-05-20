@@ -227,7 +227,7 @@ html, body, :root, .site {
     display: none;
 }
 
-#var-historia, .wp-block-column {
+#var-historia .wp-block-column {
     background-color: #001d3d!important;
 }
 
@@ -242,7 +242,6 @@ html, body, :root, .site {
 
 .wpostahs-slider-design-2 .wpostahs-slick-slider .slick-arrow, 
 .wpostahs-slider-design-2 .wpostahs-slick-slider .slick-arrow:hover,
-.wpostahs-slider-design-2 .wpostahs-slick-slider .slick-arrow:focus, 
 .wpostahs-slider-design-2 .wpostahs-slick-slider .slick-arrow-next:focus {
     background-color: white!important;
 }
