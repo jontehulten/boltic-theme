@@ -35,7 +35,7 @@ get_header();
                 <div> <h4>Nästa match</h4> </div>
                 <p class="date">08-08-2021</p>
         </div>
-        <div class="row align-items-center pt-0">
+        <div class="row align-items-center mt-0">
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" class="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
