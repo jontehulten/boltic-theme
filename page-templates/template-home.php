@@ -18,7 +18,7 @@ get_header();
         <div class="row justify-content-center pt-1">
                 <div> <h4>Senaste resultat</h4> </div>
         </div>
-        <a href="#"><div class="row align-items-center">
+        <a href="#" class="clickBox"><div class="row align-items-center">
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" clas="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
@@ -35,7 +35,7 @@ get_header();
                 <div> <h4>Nästa match</h4> </div>
                 <p class="date">Lördag 22/05 kl 19:00</p>
         </div>
-        <div class="row newResult">
+        <a href="#" class="clickBox"><div class="row newResult">
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/if-boltic-logotyp-g9-e1621032946984.png" class="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
@@ -44,7 +44,7 @@ get_header();
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/hammarby_if-logo-1.png" class="logo-resultat" alt="Hammarby logotyp">
                             <p>Hammarby</p>
-                        </div>
+                        </div></a>
         </div>
     </div> 
 </div>
