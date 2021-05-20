@@ -102,8 +102,8 @@ color: white;
     text-decoration: none;
 } 
 #senaste-resultat:hover, #nasta-match:hover{
-    background-color: #036cb5 ;
-    color:white;
+    background-color: $boltic-blue ;
+    color:$boltic-yellow;
     text-decoration: none;
 }
 a:hover{
