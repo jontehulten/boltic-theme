@@ -63,6 +63,8 @@ color: white;
 
     .page-link {
         color:black;
+        background-color: $boltic-blue;
+        border: 1px solid black;
     }
 
     .page-item.active .page-link{
