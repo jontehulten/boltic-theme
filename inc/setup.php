@@ -155,3 +155,5 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 		return $post_excerpt;
 	}
 }
+
+add_theme_support('wide');
