@@ -61,15 +61,17 @@ color: white;
     color: $primary;
 }
 
-.pagination{
-
-    color:black;
+    .page-link {
+        color:black;
+        background-color: $boltic-blue;
+        border: 1px solid black;
+    }
 
     .page-item.active .page-link{
         color: black;
         background-color: $boltic-yellow;
     }
-}
+
 
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
