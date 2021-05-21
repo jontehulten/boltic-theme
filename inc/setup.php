@@ -109,6 +109,8 @@ if ( ! function_exists( 'understrap_setup' ) ) {
 
 		// Add support for responsive embedded content.
 		add_theme_support( 'responsive-embeds' );
+		// Support for wide photos
+		add_theme_support('wide');
 
 		// Check and setup theme default settings.
 		understrap_setup_theme_default_settings();
@@ -155,5 +157,3 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 		return $post_excerpt;
 	}
 }
-
-add_theme_support('wide');
