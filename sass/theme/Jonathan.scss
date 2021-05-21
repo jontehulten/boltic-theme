@@ -61,20 +61,10 @@ color: white;
     color: $primary;
 }
 
-.pagination{
-
-    .page-link{
+    .page-item.active .page-link{
         color: black;
-    
-        .current{
-        color: black;
-        }
-    .active{
         background-color: $boltic-yellow;
-        color: black;
-        }
     }
-}
 
 
 .wp-block-table.is-style-stripes tbody tr:nth-child(odd) {
