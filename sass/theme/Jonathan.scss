@@ -69,10 +69,10 @@ color: white;
         .current{
         color: black;
         }
-    }
-    .page-item.active{
+    .active{
         background-color: $boltic-yellow;
         color: black;
+        }
     }
 }
 
@@ -111,14 +111,6 @@ a:hover{
 }
 #wp-calendar{
 
-    .sp-data-table{
-        background-color: none !important;
-        color: white !important;
-    }
-
-    .sp-data-table tr th{
-        background-color: $boltic-yellow !important;
-    }
     #today{
         background-color: $boltic-yellow !important;
         color: black !important
