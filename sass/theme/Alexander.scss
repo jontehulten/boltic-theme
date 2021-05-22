@@ -221,16 +221,31 @@ html, body, :root, .site {
     background: #2b6cb5;
 }
 
-.spelar-stats div:after {
+.spelar-stats #one:after {
     content: '';
+    width: 200px;
     height: 20px;
     background-color: #f9de1c;
     position: absolute;
     left: 0;
 }
 
-.spelar-stats #one:after {
-    width: 160px;
+.spelar-stats #two:after {
+    content: '';
+    width: 200px;
+    height: 20px;
+    background-color: #f9de1c;
+    position: absolute;
+    left: 0;
+}
+
+.spelar-stats #three:after {
+    content: '';
+    width: 200px;
+    height: 20px;
+    background-color: #f9de1c;
+    position: absolute;
+    left: 0;
 }
 
 
