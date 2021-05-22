@@ -43,7 +43,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 						the_field('presentation');
 					?>
 				</div>
-				</div>				
+				</div>
+				<h3>Statistik</h3>				
 				<div class="spelar-stats border-top d-flex justify-content-left mt-4 mb-4 pt-4 pb-4">
 				<div id="one"></div>
 				<div id="two"></div>
