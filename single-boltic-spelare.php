@@ -45,9 +45,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 				</div>
 				</div>				
 				<div class="spelar-stats border-top d-flex justify-content-left mt-4 mb-4 pt-4 pb-4">
-				<div></div>
-				<div></div>
-				<div></div>
+				<div id="one"></div>
+				<div id="two"></div>
+				<div id="three"></div>
 				</div>
                 </div>
 			</main><!-- #main -->

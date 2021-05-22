@@ -213,6 +213,28 @@ html, body, :root, .site {
     }    
 }  
 
+// spelare egen sida.
+
+.spelar-stats div {
+    width: 200px;
+    height: 20px;
+    background: #2b6cb5;
+}
+
+.spelar-stats div:after {
+    content: '';
+    height: 20px;
+    background-color: #f9de1c;
+    position: absolute;
+    left: 0;
+}
+
+.spelar-stats #one:after {
+    width: 160px;
+}
+
+
+
 /*
 --------------------------------------
   Slider - historik
