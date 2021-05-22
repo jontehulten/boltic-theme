@@ -226,7 +226,7 @@ html, body, :root, .site {
 
 .spelar-stats #one:after {
     content: '';
-    width: 320px;
+    width: 70%;
     height: 40px;
     background-color: #f9de1c;
     position: absolute;
@@ -235,7 +235,7 @@ html, body, :root, .site {
 
 .spelar-stats #two:after {
     content: '';
-    width: 280px;
+    width: 40%;
     height: 40px;
     background-color: #f9de1c;
     position: absolute;
@@ -244,7 +244,7 @@ html, body, :root, .site {
 
 .spelar-stats #three:after {
     content: '';
-    width: 160px;
+    width: 64%;
     height: 40px;
     background-color: #f9de1c;
     position: absolute;
