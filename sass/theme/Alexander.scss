@@ -217,7 +217,7 @@ html, body, :root, .site {
 // spelare egen sida.
 
 .spelar-stats div {
-    width: 100%;
+    width: 80%;
     height: 40px;
     background: #2b6cb5;
     margin: 1rem 0;
@@ -226,7 +226,7 @@ html, body, :root, .site {
 
 .spelar-stats #one:after {
     content: '';
-    width: 70%;
+    width: 50%;
     height: 40px;
     background-color: #f9de1c;
     position: absolute;
@@ -235,7 +235,7 @@ html, body, :root, .site {
 
 .spelar-stats #two:after {
     content: '';
-    width: 40%;
+    width: 20%;
     height: 40px;
     background-color: #f9de1c;
     position: absolute;
@@ -244,7 +244,7 @@ html, body, :root, .site {
 
 .spelar-stats #three:after {
     content: '';
-    width: 64%;
+    width: 70%;
     height: 40px;
     background-color: #f9de1c;
     position: absolute;
