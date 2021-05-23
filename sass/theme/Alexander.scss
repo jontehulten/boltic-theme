@@ -130,7 +130,12 @@ html, body, :root, .site {
 
 #alla-spelare{
 
+    .col-md-3{
+        transition: all .3s;
+    }
+
     .col-md-3:hover{
+
 
         img {
             // box-shadow: 0 0 0.6rem #0000006b;
@@ -364,6 +369,10 @@ li#custom_html-6 {
         border-radius: .2rem;
         color: #fff;
     }
+}
+
+.nyhets-wrapper {
+    transition: all .3s;
 }
 
 .nyhets-wrapper:hover {
