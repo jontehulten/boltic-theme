@@ -426,7 +426,7 @@ li#custom_html-6 {
 .fg-item:hover {
     -webkit-filter: drop-shadow(0 0 5px #222 );
     filter: drop-shadow(0 0 5px #222);
-    transform: transformY(-.3rem);
+    transform: transformY(-.3rem)!important;
 }
 
 
