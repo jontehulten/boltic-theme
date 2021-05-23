@@ -130,7 +130,7 @@ html, body, :root, .site {
 
 #alla-spelare{
 
-    .col-md-3{
+    .col-md-3 img{
         transition: all .3s;
     }
 
@@ -378,7 +378,7 @@ li#custom_html-6 {
 .nyhets-wrapper:hover {
     -webkit-filter: drop-shadow(0 0 5px #222 );
     filter: drop-shadow(0 0 5px #222);
-    transform: translateY(-.3rem);
+    transform: translateY(-.1rem);
 
     //border-bottom: 0!important;
     .entry-header {
