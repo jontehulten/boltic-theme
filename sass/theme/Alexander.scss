@@ -136,7 +136,7 @@ html, body, :root, .site {
             // box-shadow: 0 0 0.6rem #0000006b;
             -webkit-filter: drop-shadow(0 0 5px #222 );
             filter: drop-shadow(0 0 5px #222);
-            transform: scale(1.02);
+            transform: transformY(-.3rem);
         }
     }
         
@@ -369,7 +369,7 @@ li#custom_html-6 {
 .nyhets-wrapper:hover {
     -webkit-filter: drop-shadow(0 0 5px #222 );
     filter: drop-shadow(0 0 5px #222);
-    transform: scale(1.01);
+    transform: transformY(-.3rem);
 
     //border-bottom: 0!important;
     .entry-header {
@@ -419,11 +419,17 @@ li#custom_html-6 {
     }
 
 }
+.foogallery.fg-loaded-fade-in .fg-item.fg-loaded {
+    transition: all .3s;
+}
+
 .fg-item:hover {
     -webkit-filter: drop-shadow(0 0 5px #222 );
     filter: drop-shadow(0 0 5px #222);
-    transform: scale(1.02);
+    transform: transformY(-.3rem);
 }
+
+
 
 #wrapper-footer{
     background-color: $background-fot;
