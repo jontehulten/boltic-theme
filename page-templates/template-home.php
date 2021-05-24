@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 ?>
 
-<div class="home-bg row align-items-end d-flex justify-content-around text-center pb-4">         
+<div class="home-bg row align-items-end d-flex justify-content-around text-center pb-4 w-100 ml-0">         
 <a href="http://toto.mkv.kau.se/vt21/wd2g_09/resultat/"><div class="col-md-4 matcher-front" id="senaste-resultat">   
         <div class="row justify-content-center pt-1">
                 <div> <h4>Senaste resultat</h4> </div>
