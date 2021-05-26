@@ -19,7 +19,7 @@ get_header();
                 <div> <h4>Senaste resultat</h4> </div>
                 <p class="date"> Spelades lördag 12/05</p>
         </div>
-            <div class="row align-items-center">
+            <div class="row newResult">
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/unnamed.png" class="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
