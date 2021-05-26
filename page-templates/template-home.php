@@ -33,7 +33,7 @@ get_header();
     </div></a>
     <a href="http://toto.mkv.kau.se/vt21/wd2g_09/resultat/"><div class="col-md-4 matcher-front" id="nasta-match">   
     <div class="row justify-content-center pt-1">
-                <div> <h4>Nästa match spelas:</h4> </div>
+                <div> <h4>Nästa match spelas</h4> </div>
                 <p class="date">Lördag 22/05 kl 19:00</p>
         </div>
             <div class="row newResult">
