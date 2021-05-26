@@ -39,6 +39,10 @@ html, body, :root, .site {
     color: #fff;
 }
 
+p {
+    font-family: $head-font!important; 
+}
+
 .wrapper {
     background-color: #001d3d;
     //padding-top: 10rem!important;
