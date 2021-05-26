@@ -19,7 +19,7 @@ get_header();
                 <div> <h4>Senaste resultat</h4> </div>
                 <p class="date"> Spelades lördag 12/05</p>
         </div>
-            <div class="row align-items-center">
+            <div class="row newResult">
                         <div class="col text-nowrap">
                             <img src="http://toto.mkv.kau.se/vt21/wd2g_09/wp-content/uploads/2021/05/unnamed.png" class="logo-resultat" alt="If Boltic logotyp">
                             <p>If Boltic</p>
@@ -33,7 +33,7 @@ get_header();
     </div></a>
     <a href="http://toto.mkv.kau.se/vt21/wd2g_09/resultat/"><div class="col-md-4 matcher-front" id="nasta-match">   
     <div class="row justify-content-center pt-1">
-                <div> <h4>Nästa match</h4> </div>
+                <div> <h4>Nästa match spelas</h4> </div>
                 <p class="date">Lördag 22/05 kl 19:00</p>
         </div>
             <div class="row newResult">
