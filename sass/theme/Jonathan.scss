@@ -150,8 +150,9 @@ strong{
 }
 
 #main-menu{
-
+    display: flex;
     li a{
         text-transform: uppercase;
+        justify-content: space-between;
     }
 }
