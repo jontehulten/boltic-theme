@@ -2,10 +2,11 @@
 Kolumner för kortare textrader
 *********************/
 .text-kolumn {
-    columns: 2;
+    column-count: 2;
+    -moz-column-gap: 5em;
 
     @media (max-width: 760px) {
-        columns: 1;
+        column-count: 1;
     }
 }
 /*****************
