@@ -142,5 +142,8 @@ h1,h2,h4,h4,h5{
 
     @include media-breakpoint-down(sm){
         height: auto;
+        .site-info{
+            padding-top: 5px;
+        }
     }
 }
