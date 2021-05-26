@@ -52,7 +52,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 					</div>						
 
-					<div class="site-info mt-5 text-center">
+					<div class="site-info text-center">
 
 						<p>@Copyright Boltic grupp 9<p>
 
