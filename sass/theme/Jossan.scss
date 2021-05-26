@@ -2,7 +2,7 @@
 Kolumner för kortare textrader
 *********************/
 .text-kolumn {
-    column-count: 2;
+    column-count: 2 5em;
     column-gap: 7em;
 
     @media (max-width: 760px) {
