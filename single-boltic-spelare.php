@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<?php get_template_part( 'global-templates/left-sidebar-check' ); ?>
 
 			<main class="site-main" id="main">
-                <div class="row pr-4" id="single-spelare">
+                <div class="row pr-2" id="single-spelare">
                     <div class="col-md-3 profil-bild">
 						<?php
 						while ( have_posts() ) {
