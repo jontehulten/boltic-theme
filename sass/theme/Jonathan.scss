@@ -151,8 +151,8 @@ strong{
 
 #main-menu{
     display: flex;
+    justify-content: space-between;
     li a{
         text-transform: uppercase;
-        justify-content: space-between;
     }
 }
