@@ -23,7 +23,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<main class="site-main" id="main">
                 <div class="row pr-4" id="single-spelare">
-                    <div class="col-3 profil-bild">
+                    <div class="col-md-3 profil-bild">
 						<?php
 						while ( have_posts() ) {
 							the_post();
@@ -31,7 +31,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 						}
 						?>
                 	</div>
-                <div class="spelar-fakta col-6">
+                <div class="spelar-fakta col-md-6">
 					<?php
 						echo'<h1>'; the_field('namn'); echo '</h1><br>';
 						echo'<h1>'; the_field('nummer'); echo '</h1><br>';
