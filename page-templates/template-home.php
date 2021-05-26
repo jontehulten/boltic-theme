@@ -17,6 +17,7 @@ get_header();
 <a href="http://toto.mkv.kau.se/vt21/wd2g_09/resultat/"><div class="col-md-4 matcher-front" id="senaste-resultat">   
         <div class="row justify-content-center pt-1">
                 <div> <h4>Senaste resultat</h4> </div>
+                <p class="date"> Spelades lördag 12/05</p>
         </div>
             <div class="row align-items-center">
                         <div class="col text-nowrap">
