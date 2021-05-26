@@ -87,6 +87,10 @@ html, body, :root, .site {
     padding: 0 1.4rem;
 }
 
+#sponsors .sponsors-container {
+    display: none;
+}
+
 #sponsors .fg-default .fg-image {
     width: auto;
     height: auto;
