@@ -136,7 +136,7 @@ strong{
 }
 
 #wrapper-footer{
-    height: 200px;
+    height: auto;
 
     @include media-breakpoint-down(sm){
         height: auto;
@@ -150,10 +150,6 @@ strong{
 }
 
 #main-menu{
-    display: flex;
-    li{
-        align-self:space-between;
-    }
     li a{
         text-transform: uppercase;
     }
