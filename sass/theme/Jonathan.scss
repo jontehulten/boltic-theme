@@ -175,7 +175,7 @@ strong{
 
 
 @include media-breakpoint-down(sm){
-    .entry-title{
-        font-size:0.8em ;
+    #primary .entry-title{
+        font-size:1.4em ;
     }
 }
