@@ -172,3 +172,10 @@ strong{
 .entry-content span{
     color: white;
 }
+
+
+@include media-breakpoint-down(sm){
+    .entry-title{
+        font-size:0.8em ;
+    }
+}
