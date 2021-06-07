@@ -69,13 +69,13 @@ Enskild nyhet
 Kolumner för kortare textrader
 *********************/
 .entry-content {
-    columns: 2;
-    column-gap: 3em;
+    //columns: 2;
+    //column-gap: 3em;
 
-    @media (max-width: 760px) {
+   /* @media (max-width: 760px) {
         columns: 1;
     }
-}
+} */
 }
 
 #comments { //Tar bort möjlighet att kommentera
