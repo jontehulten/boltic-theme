@@ -65,17 +65,11 @@ Enskild nyhet
         margin-top: 1em;
     }
 
-    /********************
-Kolumner för kortare textrader
-*********************/
-/*.entry-content {
-    columns: 2;
-    column-gap: 3em;
 
-    @media (max-width: 760px) {
-        columns: 1;
-    }
-} */
+    .entry-content {
+        max-width: 640px;
+        margin: auto;
+    } 
 }
 
 #comments { //Tar bort möjlighet att kommentera
