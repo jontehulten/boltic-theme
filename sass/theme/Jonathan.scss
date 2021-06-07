@@ -158,3 +158,24 @@ strong{
 .site-info p{
     font-family: 'Russo One',sans-serif;
 }
+
+
+/*.sp-template, .sp-data-table, .sp-table-caption {
+    font-family: 'Russo One',sans-serif !important;
+}*/
+
+.sp-template-event-logos .sp-team-name {
+    font-family: 'Russo One',sans-serif !important;
+    color: white !important;
+}
+
+.entry-content span{
+    color: white;
+}
+
+
+@include media-breakpoint-down(sm){
+    #primary .entry-title{
+        font-size:1.4em ;
+    }
+}
