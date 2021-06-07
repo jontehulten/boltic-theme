@@ -69,8 +69,8 @@ Enskild nyhet
 Kolumner för kortare textrader
 *********************/
 .entry-content {
-    columns: 2;
-    column-gap: 3em;
+    columns: 1 10em;
+    //column-gap: 3em;
 
     @media (max-width: 760px) {
         columns: 1;
