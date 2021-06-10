@@ -97,8 +97,7 @@ p , li , table {
     padding: 1rem;
 }
 
-.sp_player-template-default #primary {
-    border-right: 1px solid;
+.sp_player-template-default #right-sidebar {
     border-right: $border;
 }
 
@@ -108,10 +107,6 @@ p , li , table {
 
 .sp-post-content {
     border-bottom: $border;
-}
-
-th.data-name.sorting {
-    display: none;
 }
 
 
