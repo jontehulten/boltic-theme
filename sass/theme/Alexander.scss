@@ -106,6 +106,13 @@ p , li , table {
     border-right: $border;
 }
 
+.sp-table-caption {
+    border: none!important;
+}
+
+.sp_player-template-default td.data-name.has-photo {
+    border: none!important;
+}
 
 
 
