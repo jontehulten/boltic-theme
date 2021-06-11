@@ -115,6 +115,16 @@ aside#sportspress-player-list-2 h3 {
     padding-bottom: 1rem;
 }
 
+.sp-template.sp-template-player-statistics:before {
+    content: "Statistik";
+    position: relative;
+    padding: 20px;
+    font-family: 'Russo One',sans-serif;
+    font-size: 2rem;
+    left: -20px;
+    top: 10px;
+}
+
 
 
 /*
