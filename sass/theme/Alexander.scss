@@ -105,8 +105,12 @@ p , li , table {
     border: none!important;
 }
 
-#DataTables_Table_0 {
+.single-sp_player #DataTables_Table_0 {
     border: none!important;
+}
+
+.single-sp_player #DataTables_Table_0 thead {
+    display: none!important;
 }
 
 .sp-post-content {
