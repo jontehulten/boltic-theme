@@ -90,11 +90,10 @@ p , li , table {
     border: none!important;
 }
 
-.sp_player .entry-title strong:before {
-    content: '';
+.sp_player .entry-title strong {
     background: #2b6cb5;
     border-radius: 45px;
-    padding: 1rem;
+    padding: 1rem 1rem 1rem .6rem;
 }
 
 .sp_player-template-default #right-sidebar {
