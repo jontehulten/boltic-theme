@@ -12,10 +12,11 @@ defined( 'ABSPATH' ) || exit;
 
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
-
 ?>
 
-<div class="wrapper bg-secondary" id="basic-page-wrapper">
+<div class="jumbotron lagfoto-herr"></div>
+
+<div class="wrapper pt-1" id="a-laget-page-wrapper">
     <!--HÄR BÖR VI KUNNA LÄGGA IN VÅR BANNER!!!!-->
 
 	<div class="<?php echo esc_attr( $container ); ?>" id="content">
